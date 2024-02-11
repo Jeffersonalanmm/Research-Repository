@@ -40,7 +40,7 @@ public class chatGPT {
             }
         }
 
-        printSolution(dist);
+        //printSolution(dist);
     }
 
     private static int minDistance(int[] dist, boolean[] visited) {
@@ -57,10 +57,10 @@ public class chatGPT {
         return minIndex;
     }
 
-    private static void printSolution(int[] dist) {
+    /*private static void printSolution(int[] dist) {
         System.out.println("Vertex \t\t Distance from Source");
         for (int i = 0; i < dist.length; i++) {
             System.out.println(i + " \t\t " + dist[i]);
         }
-    }
+    }*/
 }

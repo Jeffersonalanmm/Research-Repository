@@ -35,10 +35,10 @@ public class googleBard {
         }
 
         // Print the shortest distances
-        System.out.println("Shortest distances from source " + src + ":");
+       /* System.out.println("Shortest distances from source " + src + ":");
         for (int i = 0; i < V; i++) {
             System.out.println(src + " -> " + i + " : " + dist[i]);
-        }
+        }*/
     }
 
     public static void main(String[] args) {

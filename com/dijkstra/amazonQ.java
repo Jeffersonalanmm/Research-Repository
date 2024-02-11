@@ -1,7 +1,8 @@
+package com.dijkstra;
+
 import java.util.PriorityQueue;
 import java.util.Map;
 import java.util.HashMap;
-package com.dijkstra;
 
 public class amazonQ {
 
@@ -58,8 +59,8 @@ public class amazonQ {
     }
 
     // print results
-    distances.forEach((key, value) -> {
+    /*distances.forEach((key, value) -> {
       System.out.println("Distance to " + key + ": " + value);
-    });
+    });*/
   }
 }
