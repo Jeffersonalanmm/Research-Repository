@@ -23,8 +23,8 @@ public class codeium {
         }
         
         // Print the shortest distances from the source
-        /*for (int i = 0; i < n; i++) {
+        for (int i = 0; i < n; i++) {
             System.out.println("Shortest distance from " + source + " to " + i + " is " + dist[i]);
-        }*/
+        }
     }
 }

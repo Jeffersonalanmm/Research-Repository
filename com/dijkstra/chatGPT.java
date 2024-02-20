@@ -5,7 +5,7 @@ import java.util.*;
 public class chatGPT {
     private static final int INF = Integer.MAX_VALUE;
 
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
         int[][] graph = {
             {0, 4, 0, 0, 0, 0, 0, 8, 0},
             {4, 0, 8, 0, 0, 0, 0, 11, 0},
@@ -19,9 +19,9 @@ public class chatGPT {
         };
 
         dijkstra(graph, 0);
-    }
+    }*/
 
-    private static void dijkstra(int[][] graph, int src) {
+    public static void dijkstra(int[][] graph, int src) { //mudou de private para public
         int n = graph.length;
         int[] dist = new int[n];
         boolean[] visited = new boolean[n];
@@ -40,7 +40,7 @@ public class chatGPT {
             }
         }
 
-        //printSolution(dist);
+        printSolution(dist);
     }
 
     private static int minDistance(int[] dist, boolean[] visited) {
@@ -57,10 +57,10 @@ public class chatGPT {
         return minIndex;
     }
 
-    /*private static void printSolution(int[] dist) {
+    private static void printSolution(int[] dist) {
         System.out.println("Vertex \t\t Distance from Source");
         for (int i = 0; i < dist.length; i++) {
             System.out.println(i + " \t\t " + dist[i]);
         }
-    }*/
+    }
 }

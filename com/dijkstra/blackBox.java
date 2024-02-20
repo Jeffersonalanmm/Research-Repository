@@ -6,7 +6,7 @@ public class blackBox {
 
     private static final int NO_PARENT = -1;
 
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
         int adjMat [] [] = {
                 {0, 2, 0, 4, 0, 0},
                 {0, 0, 3, 2, 0, 0},
@@ -17,9 +17,9 @@ public class blackBox {
         };
 
         dijkstra(adjMat, 0);
-    }
+    }*/
 
-    private static void dijkstra(int[][] adjMat, int startNode) {
+    public static void dijkstra(int[][] adjMat, int startNode) {
         int nVertices = adjMat[0].length;
 
         int[] shortestDistances = new int[nVertices];
@@ -54,10 +54,10 @@ public class blackBox {
             }
         }
 
-        //printSolution(startNode, shortestDistances, parents);
+        printSolution(startNode, shortestDistances, parents);
     }
 
-    /*private static void printSolution(int startNode, int[] distances, int[] parents) {
+    private static void printSolution(int startNode, int[] distances, int[] parents) {
         int nVertices = distances.length;
         System.out.print("Vertex\t Distance\tPath");
 
@@ -69,13 +69,13 @@ public class blackBox {
                 printPath(vertexIndex, parents);
             }
         }
-    }*/
+    }
 
-    /*private static void printPath(int currentVertex, int[] parents) {
+    private static void printPath(int currentVertex, int[] parents) {
         if (currentVertex == NO_PARENT) {
             return;
         }
         printPath(parents[currentVertex], parents);
         System.out.print(currentVertex + " ");
-    }*/
+    }
 }

@@ -18,12 +18,12 @@ public class rosetta {
    private static final String START = "a";
    private static final String END = "e";
    
-   /*public static void main(String[] args) {
+   public static void main(String[] args) {
       Graph g = new Graph(GRAPH);
       g.dijkstra(START);
       g.printPath(END);
       //g.printAllPaths();
-   }*/
+   }
 }
 
 class Graph {
@@ -52,7 +52,7 @@ class Graph {
 		this.name = name;
 	}
 
-	/*private void printPath()
+	private void printPath()
 	{
 		if (this == this.previous)
 		{
@@ -67,7 +67,7 @@ class Graph {
 			this.previous.printPath();
 			System.out.printf(" -> %s(%d)", this.name, this.dist);
 		}
-	}*/
+	}
 
 	public int compareTo(Vertex other)
 	{
@@ -102,10 +102,10 @@ class Graph {
    
    /** Runs dijkstra using a specified source vertex */ 
    public void dijkstra(String startName) {
-      /*if (!graph.containsKey(startName)) {
+      if (!graph.containsKey(startName)) {
          System.err.printf("Graph doesn't contain start vertex \"%s\"\n", startName);
          return;
-      }*/
+      }
       final Vertex source = graph.get(startName);
       NavigableSet<Vertex> q = new TreeSet<>();
       
@@ -142,7 +142,7 @@ class Graph {
       }
    }
    
-   /** Prints a path from the source to the specified vertex 
+   /** Prints a path from the source to the specified vertex */
    public void printPath(String endName) {
       if (!graph.containsKey(endName)) {
          System.err.printf("Graph doesn't contain end vertex \"%s\"\n", endName);
@@ -152,11 +152,11 @@ class Graph {
       graph.get(endName).printPath();
       System.out.println();
    }
-   /** Prints the path from the source to every vertex (output order is not guaranteed)
+   /** Prints the path from the source to every vertex (output order is not guaranteed) */
    public void printAllPaths() {
       for (Vertex v : graph.values()) {
          v.printPath();
          System.out.println();
       }
-   }*/
+   }
 }

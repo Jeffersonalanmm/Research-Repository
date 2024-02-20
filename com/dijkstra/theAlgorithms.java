@@ -17,12 +17,12 @@ class theAlgorithms {
         return min_index;
     }
 
-    /*void print(int[] dist) {
+    void print(int[] dist) {
         System.out.println("Vertex \t\t Distance");
         for (int i = 0; i < k; i++) {
             System.out.println(i + " \t " + dist[i]);
         }
-    }*/
+    }
 
     void dijkstra(int[][] graph, int src) {
         int[] dist = new int[k];
@@ -47,11 +47,11 @@ class theAlgorithms {
             }
         }
 
-        //print(dist);
+        print(dist);
     }
 
     public static void main(String[] args) {
-        int[][] graph = new int[][] {
+        /*int[][] graph = new int[][] {
             {0, 4, 0, 0, 0, 0, 0, 8, 0},
             {4, 0, 8, 0, 0, 0, 0, 11, 0},
             {0, 8, 0, 7, 0, 4, 0, 0, 2},
@@ -63,6 +63,7 @@ class theAlgorithms {
             {0, 0, 2, 0, 0, 0, 6, 7, 0},
         };
         theAlgorithms t = new theAlgorithms();
-        t.dijkstra(graph, 0);
+        t.dijkstra(graph, 0);*/
     }
+    
 }
