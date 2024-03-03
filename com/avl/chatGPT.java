@@ -10,7 +10,7 @@ class Node {
     }
 }
 
-class AVLTree {
+class chatGPT {
     Node root;
 
     int height(Node N) {
@@ -98,7 +98,7 @@ class AVLTree {
     }
 
     public static void main(String[] args) {
-        AVLTree tree = new AVLTree();
+        chatGPT tree = new chatGPT();
 
         tree.root = tree.insert(tree.root, 10);
         tree.root = tree.insert(tree.root, 20);

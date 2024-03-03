@@ -10,7 +10,7 @@ class Node {
     }
    }
    
-   class AVLTree {
+   class BlackBox {
     Node root;
    
     // A utility function to get the height of the tree

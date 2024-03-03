@@ -98,7 +98,7 @@ public class codeium {
     }
 
     public static void main(String[] args) {
-        AVLTree tree = new AVLTree();
+        codeium tree = new codeium();
 
         tree.root = tree.insert(tree.root, 10);
         tree.root = tree.insert(tree.root, 20);
