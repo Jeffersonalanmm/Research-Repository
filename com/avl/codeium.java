@@ -89,25 +89,4 @@ public class codeium {
         return node;
     }
 
-    void preOrder(Node node) {
-        if (node != null) {
-            System.out.print(node.key + " ");
-            preOrder(node.left);
-            preOrder(node.right);
-        }
-    }
-
-    public static void main(String[] args) {
-        codeium tree = new codeium();
-
-        tree.root = tree.insert(tree.root, 10);
-        tree.root = tree.insert(tree.root, 20);
-        tree.root = tree.insert(tree.root, 30);
-        tree.root = tree.insert(tree.root, 40);
-        tree.root = tree.insert(tree.root, 50);
-        tree.root = tree.insert(tree.root, 25);
-
-        System.out.println("Preorder traversal of constructed AVL tree is :");
-        tree.preOrder(tree.root);
-    }
 }

@@ -231,16 +231,4 @@ public class theAlgorithms {
         // call the function on the node's right child as it is greater
         return searchHelper(root.right, key);
     }
-
-    public static void main(String[] args) {
-        theAlgorithms tree = new theAlgorithms();
-
-        System.out.println("Inserting values 1 to 10");
-        for (int i = 1; i < 10; i++) {
-            tree.insert(i);
-        }
-
-        System.out.print("Printing balance: ");
-        tree.printBalance();
-    }
 }
