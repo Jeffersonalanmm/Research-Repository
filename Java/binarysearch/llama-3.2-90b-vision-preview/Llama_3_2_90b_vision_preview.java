@@ -1,4 +1,5 @@
 import java.util.Random;
+import java.util.Arrays;
 public class Llama_3_2_90b_vision_preview {
 
     /**
@@ -44,6 +45,7 @@ public class Llama_3_2_90b_vision_preview {
             array[i] = rand.nextInt(10000); // Números entre 0 e 9999
         }
         Arrays.sort(array);
+        int target = array[rand.nextInt(array.length)];
 
         // Buscando o elemento com Binary Search
         int result = Llama_3_2_90b_vision_preview.binarySearch(array, target);

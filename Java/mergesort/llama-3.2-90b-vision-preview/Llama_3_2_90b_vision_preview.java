@@ -64,9 +64,6 @@ public class Llama_3_2_90b_vision_preview {
             arr[i] = random.nextInt(1000) + 1; // Números entre 1 e 1000
         }
 
-        System.out.println("Unsorted array:");
-        printArray(arr);
-
         // Ordenando com MergeSort
         arr = mergeSort(arr);
     }
