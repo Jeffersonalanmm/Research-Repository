@@ -1779,7 +1779,6 @@ class map:
 
     def __delitem__(self, key):
           self.remove(key)
-          import random
 
 def create_random_node():
     """Cria um nó com uma chave aleatória"""
@@ -1787,6 +1786,7 @@ def create_random_node():
     n.key = random.randint(1, 1000)  # Atribui uma chave aleatória entre 1 e 1000
     return n
 
+import random
 def main():
     root = None
     nodes = []
