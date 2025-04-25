@@ -1,16 +1,3 @@
-# QUESTÕES DE PESQUISA
+# Are Large Language Models Smart Coders? Evaluating Correctness and Efficiency of Generated Algorithms
 
-Qual é o impacto do consumo de energia de diferentes linguagens de programação no desempenho ambiental dos sistemas computacionais?
-
-Como as características de design das linguagens de programação afetam seu consumo de energia e sua eficiência em termos de computação verde?
-
-Quais estratégias de otimização podem ser implementadas no desenvolvimento de software para reduzir o consumo de energia, considerando a escolha da linguagem de programação?
-
-De que maneira as estruturas de dados e algoritmos influenciam o consumo de energia das linguagens de programação e como podem ser adaptados para uma computação mais sustentável?
-
-Qual é o papel das práticas de desenvolvimento sustentável na escolha e uso de linguagens de programação visando minimizar o impacto ambiental?
-
-Como diferentes linguagens de programação afetam o consumo de energia?
-
-e como podemos torná-las mais sustentáveis?
-
+The environmental impact of software has received increasing attention as part of global efforts to reduce carbon emissions and promote energy-efficient computing. In parallel, Large Language Models (LLMs) have recently emerged as powerful programming assistants, providing support for developers in complex coding tasks. In this context, this study investigates whether LLMs can correctly generate classic algorithms such as Heapsort and Binary Search across different programming languages. Additionally, we evaluate the energy, memory, and time efficiency of the generated implementations. Our results show that, in most cases, different LLMs are able to generate these algorithms correctly. Despite some variation, the findings indicate that LLM generated code is generally comparable in terms of energy consumption, memory usage, and execution time with human-written algorithms.
