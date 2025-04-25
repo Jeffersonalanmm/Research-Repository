@@ -103,32 +103,6 @@ def bubble_sort_recursive(collection: list[Any]) -> list[Any]:
 
     return collection if not swapped else bubble_sort_recursive(collection)
 
-
-if __name__ == "__main__":
-    import doctest
-    from random import sample
-    from timeit import timeit
-
-    doctest.testmod()
-
-    # Benchmark: Iterative seems slightly faster than recursive.
-    num_runs = 10_000
-    unsorted = sample(range(-50, 50), 100)
-    timer_iterative = timeit(
-        "bubble_sort_iterative(unsorted[:])", globals=globals(), number=num_runs
-    )
-    print("\nIterative bubble sort:")
-    print(*bubble_sort_iterative(unsorted), sep=",")
-    print(f"Processing time (iterative): {timer_iterative:.5f}s for {num_runs:,} runs")
-
-    unsorted = sample(range(-50, 50), 100)
-    timer_recursive = timeit(
-        "bubble_sort_recursive(unsorted[:])", globals=globals(), number=num_runs
-    )
-    print("\nRecursive bubble sort:")
-    print(*bubble_sort_recursive(unsorted), sep=",")
-    print(f"Processing time (recursive): {timer_recursive:.5f}s for {num_runs:,} runs")
-
 import random
 
 def main():
