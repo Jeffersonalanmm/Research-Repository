@@ -14,10 +14,6 @@ def main():
     arr = list(range(1, 1001))  # List of 1000 integers from 1 to 1000
     target = 567  # Example target to search for
     result = binary_search(arr, target)
-    if result != -1:
-        print(f"Element found at index {result}")
-    else:
-        print("Element not found")
 
 if __name__ == "__main__":
     main()

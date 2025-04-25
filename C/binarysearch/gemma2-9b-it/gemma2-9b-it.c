@@ -29,11 +29,5 @@ int main() {
 
     int x = 499;
     int result = binarySearch(arr, 0, 999, x);
-
-    if (result == -1)
-        printf("Element is not present in array\n");
-    else
-        printf("Element is present at index %d\n", result);
-
     return 0;
 }

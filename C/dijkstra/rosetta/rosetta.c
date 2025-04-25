@@ -146,7 +146,6 @@ void print_path(graph_t *g, int i) {
     vertex_t *v, *u;
     v = g->vertices[i];
     if (v->dist == INT_MAX) {
-        printf("no path\n");
         return;
     }
     for (n = 1, u = v; u->dist; u = g->vertices[u->prev], n++)

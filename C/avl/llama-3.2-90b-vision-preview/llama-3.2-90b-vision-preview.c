@@ -13,7 +13,6 @@ typedef struct Node {
 Node* createNode(int key) {
     Node* newNode = (Node*)malloc(sizeof(Node));
     if (!newNode) {
-        printf("Memory error\n");
         return NULL;
     }
     newNode->key = key;

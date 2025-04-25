@@ -120,7 +120,6 @@ struct Node* insert(struct Node* node, int key) {
 // A utility function to print the preorder traversal of the tree
 void preOrder(struct Node* root) {
     if (root != NULL) {
-        printf("%d ", root->key);
         preOrder(root->left);
         preOrder(root->right);
     }

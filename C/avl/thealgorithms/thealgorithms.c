@@ -17,7 +17,6 @@ avlNode *newNode(int key)
     avlNode *node = (avlNode *)malloc(sizeof(avlNode));
 
     if (node == NULL)
-        printf("!! Out of Space !!\n");
     else
     {
         node->key = key;

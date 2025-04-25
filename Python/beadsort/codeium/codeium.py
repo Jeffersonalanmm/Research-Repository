@@ -25,7 +25,6 @@ import random
 def main():
     arr = [random.randint(0, 10000) for _ in range(1000)]
     sorted_arr = bead_sort(arr)
-    print(sorted_arr)
 
 if __name__ == "__main__":
     main()

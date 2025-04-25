@@ -77,13 +77,6 @@ int main() {
     // Sort the array
     mergeSort(arr, 0, SIZE - 1);
     
-    // Verify if array is sorted
-    if (isSorted(arr, SIZE)) {
-        printf("Array sorted successfully\n");
-    } else {
-        printf("Sorting failed\n");
-    }
-    
     free(arr);
     return 0;
 }

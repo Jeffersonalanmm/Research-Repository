@@ -44,11 +44,7 @@ int main() {
     int target = 500;
     int result = binary_search(arr, 1000, target);
 
-    if (result != -1) {
-        printf("Target %d found at index %d\n", target, result);
-    } else {
-        printf("Target %d not found\n", target);
-    }
+
 
     return 0;
 }
