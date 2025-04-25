@@ -29,7 +29,6 @@ int isFull(Queue* q) {
 // Function to enqueue an item into the queue
 void enqueue(Queue* q, int value) {
     if (isFull(q)) {
-        printf("Queue Overflow\n");
         return;
     }
     if (isEmpty(q)) {
@@ -42,7 +41,6 @@ void enqueue(Queue* q, int value) {
 // Function to dequeue an item from the queue
 int dequeue(Queue* q) {
     if (isEmpty(q)) {
-        printf("Queue Underflow\n");
         return -1;
     }
     int value = q->items[q->front];

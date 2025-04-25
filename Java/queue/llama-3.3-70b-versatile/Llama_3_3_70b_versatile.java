@@ -93,14 +93,5 @@ public class Llama_3_3_70b_versatile<T> {
         queue.enqueue(1);
         queue.enqueue(2);
         queue.enqueue(3);
-
-        System.out.println("Size: " + queue.size()); // Output: 3
-        System.out.println("Front: " + queue.peek()); // Output: 1
-
-        System.out.println("Dequeued: " + queue.dequeue()); // Output: 1
-        System.out.println("Dequeued: " + queue.dequeue()); // Output: 2
-        System.out.println("Dequeued: " + queue.dequeue()); // Output: 3
-
-        System.out.println("Is empty? " + queue.isEmpty()); // Output: true
     }
 }

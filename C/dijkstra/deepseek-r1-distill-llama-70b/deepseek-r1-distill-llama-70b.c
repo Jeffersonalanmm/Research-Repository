@@ -60,7 +60,6 @@ void swap(PriorityQueueElement* a, PriorityQueueElement* b) {
 // Function to insert an element into the priority queue
 void insert(PriorityQueue* queue, int distance, int vertex) {
     if (queue->size == queue->capacity) {
-        printf("Priority queue is full\n");
         return;
     }
 
@@ -79,7 +78,6 @@ void insert(PriorityQueue* queue, int distance, int vertex) {
 // Function to extract the minimum element from the priority queue
 PriorityQueueElement extractMin(PriorityQueue* queue) {
     if (queue->size == 0) {
-        printf("Priority queue is empty\n");
         exit(EXIT_FAILURE);
     }
 

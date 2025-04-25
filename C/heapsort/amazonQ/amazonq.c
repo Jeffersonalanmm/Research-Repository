@@ -67,20 +67,10 @@ int main() {
     
     // Create and initialize random array
     int* arr = createRandomArray(SIZE, MAX_VALUE);
-    if (arr == NULL) {
-        printf("Memory allocation failed\n");
-        return 1;
-    }
 
     // Perform heap sort
     heapSort(arr, SIZE);
 
-    // Verify sorting
-    if (isSorted(arr, SIZE)) {
-        printf("Array sorted successfully\n");
-    } else {
-        printf("Sorting failed\n");
-    }
 
     // Clean up
     free(arr);

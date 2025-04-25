@@ -35,7 +35,6 @@ void merge(int *a, int l, int r, int n)
     int *b = (int *)malloc(n * sizeof(int)); /* dynamic memory must be freed */
     if (b == NULL)
     {
-        printf("Can't Malloc! Please try again.");
         exit(EXIT_FAILURE);
     }
     int c = l;
@@ -110,9 +109,7 @@ int main(void)
 
     a = (int *)malloc(n * sizeof(int));
     if (a == NULL) /* exit program if can't malloc memory */
-    {
-        printf("Can't Malloc! Please try again.");
-        return 1;
+    {        return 1;
     }
 
     srand(time(NULL)); // Inicializa a semente aleatória
