@@ -1,0 +1,227 @@
+[
+  {
+    "avl": {
+      "verdicts": {
+        "BlackBox": "correct",
+        "amazonQ": "invalid",
+        "chatGPT": "correct",
+        "codeium": "correct",
+        "copilot": "correct",
+        "Gemini": "incorrect",
+        "deepseek-r1-distill-llama-70b": "correct",
+        "gemma2-9b-it": "correct",
+        "llama-3.2-90b-vision-preview": "correct",
+        "llama-3.3-70b-versatile": "correct",
+        "mixtral-8x7b-32768": "correct",
+        "rosetta": "invalid",
+        "theAlgorithms": "correct"
+      },
+      "summary": "BlackBox, chatGPT, codeium, and copilot each provide a complete, compilable AVL tree with proper insertion and balancing logic. AmazonQ's submission is truncated, left inside an unclosed comment block, and lacks essential methods, making it non‑compilable. BlackBox, chatGPT, codeium, and copilot each provide a complete, compilable AVL tree with proper insertion and balancing logic. AmazonQ's submission is truncated, left inside an unclosed comment block, and lacks essential methods, making it non‑compilable. BlackBox, chatGPT, codeium, and copilot each provide a complete, compilable AVL tree with proper insertion and balancing logic. AmazonQ's submission is truncated, left inside an unclosed comment block, and lacks essential methods, making it non‑compilable. BlackBox, chatGPT, codeium, and copilot each provide a complete, compilable AVL tree with proper insertion and balancing logic. AmazonQ's submission is truncated, left inside an unclosed comment block, and lacks essential methods, making it non‑compilable. BlackBox, chatGPT, codeium, and copilot each provide a complete, compilable AVL tree with proper insertion and balancing logic. AmazonQ's submission is truncated, left inside an unclosed comment block, and lacks essential methods, making it non‑compilable. All AVL implementations except the rosetta submission compile and implement standard insertion, deletion, and rebalancing correctly. The rosetta code fails to compile due to a missing import for java.util.Random. The beadsort implementation from AmazonQ is complete, compiles, and correctly performs bead sort. All AVL implementations except the rosetta submission compile and implement standard insertion, deletion, and rebalancing correctly. The rosetta code fails to compile due to a missing import for java.util.Random. The beadsort implementation from AmazonQ is complete, compiles, and correctly performs bead sort. All AVL implementations except the rosetta submission compile and implement standard insertion, deletion, and rebalancing correctly. The rosetta code fails to compile due to a missing import for java.util.Random. The beadsort implementation from AmazonQ is complete, compiles, and correctly performs bead sort. All AVL implementations except the rosetta submission compile and implement standard insertion, deletion, and rebalancing correctly. The rosetta code fails to compile due to a missing import for java.util.Random. The beadsort implementation from AmazonQ is complete, compiles, and correctly performs bead sort."
+    }
+  },
+  {
+    "beadsort": {
+      "verdicts": {
+        "AmazonQ": "correct",
+        "BlackBox": "incorrect",
+        "ChatGPT": "incorrect",
+        "Codeium": "incorrect",
+        "Copilot": "correct",
+        "Gemini": "incorrect",
+        "deepseek-r1-distill-llama-70b": "correct",
+        "gemma2-9b-it": "correct",
+        "llama-3.2-90b-vision-preview": "correct",
+        "llama-3.3-70b-versatile": "incorrect",
+        "mixtral-8x7b-32768": "incorrect",
+        "rosetta": "correct",
+        "theAlgorithms": "plausible"
+      },
+      "summary": "All AVL implementations except the rosetta submission compile and implement standard insertion, deletion, and rebalancing correctly. The rosetta code fails to compile due to a missing import for java.util.Random. The beadsort implementation from AmazonQ is complete, compiles, and correctly performs bead sort. Copilot provides a faithful bead‑sort implementation: it correctly builds the bead matrix, clears columns, drops beads to the bottom, and extracts sorted values. BlackBox, ChatGPT, Codeium, and Gemini all contain logical flaws—BlackBox does not clear columns before dropping beads, ChatGPT writes column counts into the array (and can overflow), Codeium implements counting sort rather than bead sort, and Gemini only moves beads one step per column, leaving them unsorted. Copilot provides a faithful bead‑sort implementation: it correctly builds the bead matrix, clears columns, drops beads to the bottom, and extracts sorted values. BlackBox, ChatGPT, Codeium, and Gemini all contain logical flaws—BlackBox does not clear columns before dropping beads, ChatGPT writes column counts into the array (and can overflow), Codeium implements counting sort rather than bead sort, and Gemini only moves beads one step per column, leaving them unsorted. Copilot provides a faithful bead‑sort implementation: it correctly builds the bead matrix, clears columns, drops beads to the bottom, and extracts sorted values. BlackBox, ChatGPT, Codeium, and Gemini all contain logical flaws—BlackBox does not clear columns before dropping beads, ChatGPT writes column counts into the array (and can overflow), Codeium implements counting sort rather than bead sort, and Gemini only moves beads one step per column, leaving them unsorted. Copilot provides a faithful bead‑sort implementation: it correctly builds the bead matrix, clears columns, drops beads to the bottom, and extracts sorted values. BlackBox, ChatGPT, Codeium, and Gemini all contain logical flaws—BlackBox does not clear columns before dropping beads, ChatGPT writes column counts into the array (and can overflow), Codeium implements counting sort rather than bead sort, and Gemini only moves beads one step per column, leaving them unsorted. Copilot provides a faithful bead‑sort implementation: it correctly builds the bead matrix, clears columns, drops beads to the bottom, and extracts sorted values. BlackBox, ChatGPT, Codeium, and Gemini all contain logical flaws—BlackBox does not clear columns before dropping beads, ChatGPT writes column counts into the array (and can overflow), Codeium implements counting sort rather than bead sort, and Gemini only moves beads one step per column, leaving them unsorted. Both beadsort submissions compile but fail to implement the true beadsort algorithm; the first uses a counting‑sort approach, while the second loses duplicate values, making both incorrect. All three binary‑search implementations are functionally accurate, handling edge cases and avoiding overflow, thus they are classified as correct. Both beadsort submissions compile but fail to implement the true beadsort algorithm; the first uses a counting‑sort approach, while the second loses duplicate values, making both incorrect. All three binary‑search implementations are functionally accurate, handling edge cases and avoiding overflow, thus they are classified as correct."
+    }
+  },
+  {
+    "binarysearch": {
+      "verdicts": {
+        "AmazonQ": "correct",
+        "BlackBox": "correct",
+        "ChatGPT": "correct",
+        "Codeium": "correct",
+        "Copilot": "correct",
+        "Gemini": "correct",
+        "Rosetta": "correct",
+        "TheAlgorithms": "correct",
+        "deepseek-r1-distill-llama-70b": "invalid",
+        "gemma2-9b-it": "invalid",
+        "llama-3.2-90b-vision-preview": "correct",
+        "llama-3.3-70b-versatile": "correct",
+        "mixtral-8x7b-32768": "correct"
+      },
+      "summary": "Both beadsort submissions compile but fail to implement the true beadsort algorithm; the first uses a counting‑sort approach, while the second loses duplicate values, making both incorrect. All three binary‑search implementations are functionally accurate, handling edge cases and avoiding overflow, thus they are classified as correct. Both beadsort submissions compile but fail to implement the true beadsort algorithm; the first uses a counting‑sort approach, while the second loses duplicate values, making both incorrect. All three binary‑search implementations are functionally accurate, handling edge cases and avoiding overflow, thus they are classified as correct. Both beadsort submissions compile but fail to implement the true beadsort algorithm; the first uses a counting‑sort approach, while the second loses duplicate values, making both incorrect. All three binary‑search implementations are functionally accurate, handling edge cases and avoiding overflow, thus they are classified as correct. All five submissions compile and implement a standard iterative (or recursive generic) binary search correctly. They handle sorted input, compute the middle index safely, and return the correct index or -1 when the target is absent. Minor differences in demonstration code do not affect correctness. All five submissions compile and implement a standard iterative (or recursive generic) binary search correctly. They handle sorted input, compute the middle index safely, and return the correct index or -1 when the target is absent. Minor differences in demonstration code do not affect correctness. All five submissions compile and implement a standard iterative (or recursive generic) binary search correctly. They handle sorted input, compute the middle index safely, and return the correct index or -1 when the target is absent. Minor differences in demonstration code do not affect correctness. All five submissions compile and implement a standard iterative (or recursive generic) binary search correctly. They handle sorted input, compute the middle index safely, and return the correct index or -1 when the target is absent. Minor differences in demonstration code do not affect correctness. All five submissions compile and implement a standard iterative (or recursive generic) binary search correctly. They handle sorted input, compute the middle index safely, and return the correct index or -1 when the target is absent. Minor differences in demonstration code do not affect correctness. The deepseek and gemma2 submissions fail to compile due to missing imports and undefined variables. The remaining three implementations include proper imports, define all needed variables, and contain a standard, correct binary search algorithm. The deepseek and gemma2 submissions fail to compile due to missing imports and undefined variables. The remaining three implementations include proper imports, define all needed variables, and contain a standard, correct binary search algorithm. The deepseek and gemma2 submissions fail to compile due to missing imports and undefined variables. The remaining three implementations include proper imports, define all needed variables, and contain a standard, correct binary search algorithm. The deepseek and gemma2 submissions fail to compile due to missing imports and undefined variables. The remaining three implementations include proper imports, define all needed variables, and contain a standard, correct binary search algorithm. The deepseek and gemma2 submissions fail to compile due to missing imports and undefined variables. The remaining three implementations include proper imports, define all needed variables, and contain a standard, correct binary search algorithm."
+    }
+  },
+  {
+    "bogosort": {
+      "verdicts": {
+        "AmazonQ": "correct",
+        "BlackBox": "correct",
+        "ChatGPT": "correct",
+        "Codeium": "correct",
+        "Copilot": "correct",
+        "Gemini": "correct",
+        "Rosetta": "correct",
+        "TheAlgorithms": "correct",
+        "deepseek-r1-distill-llama-70b": "correct",
+        "gemma2-9b-it": "correct",
+        "llama-3.2-90b-vision-preview": "correct",
+        "llama-3.3-70b-versatile": "correct",
+        "mixtral-8x7b-32768": "correct"
+      },
+      "summary": "All five submissions compile and implement a functional bogosort: they correctly detect sortedness and shuffle the array (using either Fisher‑Yates or a simpler swap‑based shuffle). Minor stylistic differences (e.g., printing the result, comment mismatches, creating a new Random per shuffle) do not affect correctness. All five submissions compile and implement a functional bogosort: they correctly detect sortedness and shuffle the array (using either Fisher‑Yates or a simpler swap‑based shuffle). Minor stylistic differences (e.g., printing the result, comment mismatches, creating a new Random per shuffle) do not affect correctness. All five submissions compile and implement a functional bogosort: they correctly detect sortedness and shuffle the array (using either Fisher‑Yates or a simpler swap‑based shuffle). Minor stylistic differences (e.g., printing the result, comment mismatches, creating a new Random per shuffle) do not affect correctness. All five submissions compile and implement a functional bogosort: they correctly detect sortedness and shuffle the array (using either Fisher‑Yates or a simpler swap‑based shuffle). Minor stylistic differences (e.g., printing the result, comment mismatches, creating a new Random per shuffle) do not affect correctness. All five submissions compile and implement a functional bogosort: they correctly detect sortedness and shuffle the array (using either Fisher‑Yates or a simpler swap‑based shuffle). Minor stylistic differences (e.g., printing the result, comment mismatches, creating a new Random per shuffle) do not affect correctness. All five submissions compile and implement a functioning bogosort. Each provides a proper sorted‑check, a random shuffle (either Fisher‑Yates or a simple swap loop), and a driver that generates random data. No significant logical errors or compilation problems were found, so they are all classified as correct. All five submissions compile and implement a functioning bogosort. Each provides a proper sorted‑check, a random shuffle (either Fisher‑Yates or a simple swap loop), and a driver that generates random data. No significant logical errors or compilation problems were found, so they are all classified as correct. All five submissions compile and implement a functioning bogosort. Each provides a proper sorted‑check, a random shuffle (either Fisher‑Yates or a simple swap loop), and a driver that generates random data. No significant logical errors or compilation problems were found, so they are all classified as correct. All five submissions compile and implement a functioning bogosort. Each provides a proper sorted‑check, a random shuffle (either Fisher‑Yates or a simple swap loop), and a driver that generates random data. No significant logical errors or compilation problems were found, so they are all classified as correct. All five submissions compile and implement a functioning bogosort. Each provides a proper sorted‑check, a random shuffle (either Fisher‑Yates or a simple swap loop), and a driver that generates random data. No significant logical errors or compilation problems were found, so they are all classified as correct. All three bogosort implementations are functionally correct and compile; the first bubblesort version compiles and works, while the second bubblesort version contains an extra closing brace that makes it fail to compile. All three bogosort implementations are functionally correct and compile; the first bubblesort version compiles and works, while the second bubblesort version contains an extra closing brace that makes it fail to compile. All three bogosort implementations are functionally correct and compile; the first bubblesort version compiles and works, while the second bubblesort version contains an extra closing brace that makes it fail to compile."
+    }
+  },
+  {
+    "bubblesort": {
+      "verdicts": {
+        "BlackBox": "invalid",
+        "amazonQ": "correct",
+        "chatGPT": "correct",
+        "codeium": "correct",
+        "copilot": "correct",
+        "deepseek-r1-distill-llama-70b": "correct",
+        "gemini": "correct",
+        "gemma2-9b-it": "correct",
+        "llama-3.2-90b-vision-preview": "correct",
+        "llama-3.3-70b-versatile": "correct",
+        "mixtral-8x7b-32768": "correct",
+        "rosetta": "correct",
+        "theAlgorithms": "incorrect"
+      },
+      "summary": "All three bogosort implementations are functionally correct and compile; the first bubblesort version compiles and works, while the second bubblesort version contains an extra closing brace that makes it fail to compile. All five submissions provide a functional bubble sort implementation that compiles and correctly sorts the array. Minor stylistic differences (static vs instance method, added early‑exit optimization) do not affect correctness. All five submissions provide a functional bubble sort implementation that compiles and correctly sorts the array. Minor stylistic differences (static vs instance method, added early‑exit optimization) do not affect correctness. All five submissions provide a functional bubble sort implementation that compiles and correctly sorts the array. Minor stylistic differences (static vs instance method, added early‑exit optimization) do not affect correctness. All five submissions provide a functional bubble sort implementation that compiles and correctly sorts the array. Minor stylistic differences (static vs instance method, added early‑exit optimization) do not affect correctness. All five submissions provide a functional bubble sort implementation that compiles and correctly sorts the array. Minor stylistic differences (static vs instance method, added early‑exit optimization) do not affect correctness. All five submissions provide a functional bubble sort implementation, correctly handling array traversal, swapping, and (where included) early termination. They compile without errors and fulfill the task requirements. All five submissions provide a functional bubble sort implementation, correctly handling array traversal, swapping, and (where included) early termination. They compile without errors and fulfill the task requirements. All five submissions provide a functional bubble sort implementation, correctly handling array traversal, swapping, and (where included) early termination. They compile without errors and fulfill the task requirements. All five submissions provide a functional bubble sort implementation, correctly handling array traversal, swapping, and (where included) early termination. They compile without errors and fulfill the task requirements. All five submissions provide a functional bubble sort implementation, correctly handling array traversal, swapping, and (where included) early termination. They compile without errors and fulfill the task requirements. rosetta's bubble sort is a straightforward, working implementation. theAlgorithms' version fails due to an off‑by‑one error in its swap method. BlackBox's Dijkstra works for fully connected graphs but lacks handling of unreachable vertices, making it plausible but not robust. amazonQ's code references undefined graph structures, so it does not compile. chatGPT provides a complete, correct Dijkstra implementation using an adjacency matrix. rosetta's bubble sort is a straightforward, working implementation. theAlgorithms' version fails due to an off‑by‑one error in its swap method. BlackBox's Dijkstra works for fully connected graphs but lacks handling of unreachable vertices, making it plausible but not robust. amazonQ's code references undefined graph structures, so it does not compile. chatGPT provides a complete, correct Dijkstra implementation using an adjacency matrix."
+    }
+  },
+  {
+    "dijkstra": {
+      "verdicts": {
+        "BlackBox": "plausible",
+        "amazonQ": "invalid",
+        "chatGPT": "correct",
+        "codeium": "plausible",
+        "copilot": "incorrect",
+        "deepseek-r1-distill-llama-70b": "invalid",
+        "gemini": "correct",
+        "gemma2-9b-it": "correct",
+        "llama-3.2-90b-vision-preview": "correct",
+        "llama-3.3-70b-versatile": "plausible",
+        "mixtral-8x7b-32768": "correct",
+        "rosetta": "correct",
+        "theAlgorithms": "incorrect"
+      },
+      "summary": "rosetta's bubble sort is a straightforward, working implementation. theAlgorithms' version fails due to an off‑by‑one error in its swap method. BlackBox's Dijkstra works for fully connected graphs but lacks handling of unreachable vertices, making it plausible but not robust. amazonQ's code references undefined graph structures, so it does not compile. chatGPT provides a complete, correct Dijkstra implementation using an adjacency matrix. rosetta's bubble sort is a straightforward, working implementation. theAlgorithms' version fails due to an off‑by‑one error in its swap method. BlackBox's Dijkstra works for fully connected graphs but lacks handling of unreachable vertices, making it plausible but not robust. amazonQ's code references undefined graph structures, so it does not compile. chatGPT provides a complete, correct Dijkstra implementation using an adjacency matrix. rosetta's bubble sort is a straightforward, working implementation. theAlgorithms' version fails due to an off‑by‑one error in its swap method. BlackBox's Dijkstra works for fully connected graphs but lacks handling of unreachable vertices, making it plausible but not robust. amazonQ's code references undefined graph structures, so it does not compile. chatGPT provides a complete, correct Dijkstra implementation using an adjacency matrix. Codeium provides a mostly functional Dijkstra implementation but mishandles zero-weight edges, making it plausible rather than fully correct. Copilot's version lacks proper termination checks and can throw an exception on disconnected graphs, rendering it incorrect. Deepseek's submission omits essential imports, so it does not compile (invalid). Gemini and Gemma2-9b-it both deliver correct, compile‑ready Dijkstra algorithms with appropriate data structures and visited handling. Codeium provides a mostly functional Dijkstra implementation but mishandles zero-weight edges, making it plausible rather than fully correct. Copilot's version lacks proper termination checks and can throw an exception on disconnected graphs, rendering it incorrect. Deepseek's submission omits essential imports, so it does not compile (invalid). Gemini and Gemma2-9b-it both deliver correct, compile‑ready Dijkstra algorithms with appropriate data structures and visited handling. Codeium provides a mostly functional Dijkstra implementation but mishandles zero-weight edges, making it plausible rather than fully correct. Copilot's version lacks proper termination checks and can throw an exception on disconnected graphs, rendering it incorrect. Deepseek's submission omits essential imports, so it does not compile (invalid). Gemini and Gemma2-9b-it both deliver correct, compile‑ready Dijkstra algorithms with appropriate data structures and visited handling. Codeium provides a mostly functional Dijkstra implementation but mishandles zero-weight edges, making it plausible rather than fully correct. Copilot's version lacks proper termination checks and can throw an exception on disconnected graphs, rendering it incorrect. Deepseek's submission omits essential imports, so it does not compile (invalid). Gemini and Gemma2-9b-it both deliver correct, compile‑ready Dijkstra algorithms with appropriate data structures and visited handling. Codeium provides a mostly functional Dijkstra implementation but mishandles zero-weight edges, making it plausible rather than fully correct. Copilot's version lacks proper termination checks and can throw an exception on disconnected graphs, rendering it incorrect. Deepseek's submission omits essential imports, so it does not compile (invalid). Gemini and Gemma2-9b-it both deliver correct, compile‑ready Dijkstra algorithms with appropriate data structures and visited handling. The first, third, and fourth submissions provide fully functional Dijkstra implementations (matrix‑based, adjacency‑list, and object‑oriented respectively). The second implementation is mostly correct but its path‑printing routine can crash on unreachable nodes, making it only plausible. The fifth implementation is flawed due to a hard‑coded vertex count, limiting it to nine nodes regardless of the input size. The first, third, and fourth submissions provide fully functional Dijkstra implementations (matrix‑based, adjacency‑list, and object‑oriented respectively). The second implementation is mostly correct but its path‑printing routine can crash on unreachable nodes, making it only plausible. The fifth implementation is flawed due to a hard‑coded vertex count, limiting it to nine nodes regardless of the input size. The first, third, and fourth submissions provide fully functional Dijkstra implementations (matrix‑based, adjacency‑list, and object‑oriented respectively). The second implementation is mostly correct but its path‑printing routine can crash on unreachable nodes, making it only plausible. The fifth implementation is flawed due to a hard‑coded vertex count, limiting it to nine nodes regardless of the input size. The first, third, and fourth submissions provide fully functional Dijkstra implementations (matrix‑based, adjacency‑list, and object‑oriented respectively). The second implementation is mostly correct but its path‑printing routine can crash on unreachable nodes, making it only plausible. The fifth implementation is flawed due to a hard‑coded vertex count, limiting it to nine nodes regardless of the input size. The first, third, and fourth submissions provide fully functional Dijkstra implementations (matrix‑based, adjacency‑list, and object‑oriented respectively). The second implementation is mostly correct but its path‑printing routine can crash on unreachable nodes, making it only plausible. The fifth implementation is flawed due to a hard‑coded vertex count, limiting it to nine nodes regardless of the input size."
+    }
+  },
+  {
+    "heapsort": {
+      "verdicts": {
+        "BlackBox": "incorrect",
+        "amazonQ": "correct",
+        "chatGPT": "correct",
+        "codeium": "correct",
+        "copilot": "correct",
+        "deepseek-r1-distill-llama-70b": "correct",
+        "gemini": "correct",
+        "gemma2-9b-it": "correct",
+        "llama-3.2-90b-vision-preview": "correct",
+        "llama-3.3-70b-versatile": "correct",
+        "mixtral-8x7b-32768": "correct",
+        "rosetta": "correct",
+        "theAlgorithms": "correct"
+      },
+      "summary": "BlackBox only calls heapify once and never performs the extraction phase, so it does not sort the array. The other four submissions each contain a full heap construction loop followed by the standard extraction loop, with correctly implemented heapify recursion, and compile and run as expected. BlackBox only calls heapify once and never performs the extraction phase, so it does not sort the array. The other four submissions each contain a full heap construction loop followed by the standard extraction loop, with correctly implemented heapify recursion, and compile and run as expected. BlackBox only calls heapify once and never performs the extraction phase, so it does not sort the array. The other four submissions each contain a full heap construction loop followed by the standard extraction loop, with correctly implemented heapify recursion, and compile and run as expected. BlackBox only calls heapify once and never performs the extraction phase, so it does not sort the array. The other four submissions each contain a full heap construction loop followed by the standard extraction loop, with correctly implemented heapify recursion, and compile and run as expected. BlackBox only calls heapify once and never performs the extraction phase, so it does not sort the array. The other four submissions each contain a full heap construction loop followed by the standard extraction loop, with correctly implemented heapify recursion, and compile and run as expected. All five submissions implement a standard max‑heap based heapsort with proper heap construction, extraction loop, and correct recursive heapify. They compile, handle array bounds correctly, and produce a sorted array, so each is classified as correct. All five submissions implement a standard max‑heap based heapsort with proper heap construction, extraction loop, and correct recursive heapify. They compile, handle array bounds correctly, and produce a sorted array, so each is classified as correct. All five submissions implement a standard max‑heap based heapsort with proper heap construction, extraction loop, and correct recursive heapify. They compile, handle array bounds correctly, and produce a sorted array, so each is classified as correct. All five submissions implement a standard max‑heap based heapsort with proper heap construction, extraction loop, and correct recursive heapify. They compile, handle array bounds correctly, and produce a sorted array, so each is classified as correct. All five submissions implement a standard max‑heap based heapsort with proper heap construction, extraction loop, and correct recursive heapify. They compile, handle array bounds correctly, and produce a sorted array, so each is classified as correct. The mixtral, rosetta, and theAlgorithms heap sort implementations are all functional and compile, each correctly building a max‑heap and extracting elements. The AmazonQ merge sort code is syntactically broken – the merge routine is missing a method header and is placed outside any method, making it uncompilable. The BlackBox merge sort is a standard, correct top‑down implementation. The mixtral, rosetta, and theAlgorithms heap sort implementations are all functional and compile, each correctly building a max‑heap and extracting elements. The AmazonQ merge sort code is syntactically broken – the merge routine is missing a method header and is placed outside any method, making it uncompilable. The BlackBox merge sort is a standard, correct top‑down implementation. The mixtral, rosetta, and theAlgorithms heap sort implementations are all functional and compile, each correctly building a max‑heap and extracting elements. The AmazonQ merge sort code is syntactically broken – the merge routine is missing a method header and is placed outside any method, making it uncompilable. The BlackBox merge sort is a standard, correct top‑down implementation."
+    }
+  },
+  {
+    "mergesort": {
+      "verdicts": {
+        "AmazonQ": "invalid",
+        "BlackBox": "correct",
+        "ChatGPT": "correct",
+        "Codeium": "correct",
+        "Copilot": "correct",
+        "Gemini": "correct",
+        "Rosetta": "correct",
+        "TheAlgorithms": "correct",
+        "deepseek-r1-distill-llama-70b": "correct",
+        "gemma2-9b-it": "correct",
+        "llama-3.2-90b-vision-preview": "correct",
+        "llama-3.3-70b-versatile": "correct",
+        "mixtral-8x7b-32768": "correct"
+      },
+      "summary": "The mixtral, rosetta, and theAlgorithms heap sort implementations are all functional and compile, each correctly building a max‑heap and extracting elements. The AmazonQ merge sort code is syntactically broken – the merge routine is missing a method header and is placed outside any method, making it uncompilable. The BlackBox merge sort is a standard, correct top‑down implementation. The mixtral, rosetta, and theAlgorithms heap sort implementations are all functional and compile, each correctly building a max‑heap and extracting elements. The AmazonQ merge sort code is syntactically broken – the merge routine is missing a method header and is placed outside any method, making it uncompilable. The BlackBox merge sort is a standard, correct top‑down implementation. All five submissions provide a functioning merge‑sort implementation. Each compiles and correctly sorts the data (ChatGPT, Copilot, and Gemini use in‑place recursion; Codeium returns a new sorted array; Rosetta works with generic Lists). Minor stylistic differences do not affect correctness. All five submissions provide a functioning merge‑sort implementation. Each compiles and correctly sorts the data (ChatGPT, Copilot, and Gemini use in‑place recursion; Codeium returns a new sorted array; Rosetta works with generic Lists). Minor stylistic differences do not affect correctness. All five submissions provide a functioning merge‑sort implementation. Each compiles and correctly sorts the data (ChatGPT, Copilot, and Gemini use in‑place recursion; Codeium returns a new sorted array; Rosetta works with generic Lists). Minor stylistic differences do not affect correctness. All five submissions provide a functioning merge‑sort implementation. Each compiles and correctly sorts the data (ChatGPT, Copilot, and Gemini use in‑place recursion; Codeium returns a new sorted array; Rosetta works with generic Lists). Minor stylistic differences do not affect correctness. All five submissions provide a functioning merge‑sort implementation. Each compiles and correctly sorts the data (ChatGPT, Copilot, and Gemini use in‑place recursion; Codeium returns a new sorted array; Rosetta works with generic Lists). Minor stylistic differences do not affect correctness. All five submissions implement a functional mergesort algorithm. They correctly handle recursion, splitting, and merging, and compile without errors. Minor stylistic differences (in‑place vs. returning new arrays) do not affect correctness. All five submissions implement a functional mergesort algorithm. They correctly handle recursion, splitting, and merging, and compile without errors. Minor stylistic differences (in‑place vs. returning new arrays) do not affect correctness. All five submissions implement a functional mergesort algorithm. They correctly handle recursion, splitting, and merging, and compile without errors. Minor stylistic differences (in‑place vs. returning new arrays) do not affect correctness. All five submissions implement a functional mergesort algorithm. They correctly handle recursion, splitting, and merging, and compile without errors. Minor stylistic differences (in‑place vs. returning new arrays) do not affect correctness. All five submissions implement a functional mergesort algorithm. They correctly handle recursion, splitting, and merging, and compile without errors. Minor stylistic differences (in‑place vs. returning new arrays) do not affect correctness. All submissions compile and implement their respective data structures correctly. The mergesort implementation follows the classic recursive algorithm with a proper merge step. Each queue implementation provides standard enqueue/dequeue operations, handles empty cases, and includes a simple test in main. No significant logical or compilation issues were found."
+    }
+  },
+  {
+    "queue": {
+      "verdicts": {
+        "AmazonQ": "correct",
+        "BlackBox": "correct",
+        "ChatGPT": "correct",
+        "Codeium": "correct",
+        "Copilot": "correct",
+        "Gemini": "correct",
+        "Rosetta": "plausible",
+        "TheAlgorithms": "correct",
+        "deepseek-r1-distill-llama-70b": "correct",
+        "gemma2-9b-it": "correct",
+        "llama-3.2-90b-vision-preview": "correct",
+        "llama-3.3-70b-versatile": "correct",
+        "mixtral-8x7b-32768": "correct"
+      },
+      "summary": "All submissions compile and implement their respective data structures correctly. The mergesort implementation follows the classic recursive algorithm with a proper merge step. Each queue implementation provides standard enqueue/dequeue operations, handles empty cases, and includes a simple test in main. No significant logical or compilation issues were found. All submissions compile and implement their respective data structures correctly. The mergesort implementation follows the classic recursive algorithm with a proper merge step. Each queue implementation provides standard enqueue/dequeue operations, handles empty cases, and includes a simple test in main. No significant logical or compilation issues were found. All submissions compile and implement their respective data structures correctly. The mergesort implementation follows the classic recursive algorithm with a proper merge step. Each queue implementation provides standard enqueue/dequeue operations, handles empty cases, and includes a simple test in main. No significant logical or compilation issues were found. All submissions compile and implement their respective data structures correctly. The mergesort implementation follows the classic recursive algorithm with a proper merge step. Each queue implementation provides standard enqueue/dequeue operations, handles empty cases, and includes a simple test in main. No significant logical or compilation issues were found. All implementations are functional except Rosetta, which works but fails to clear the tail reference on the final dequeue, causing a minor memory‑leak issue; thus it is only plausible. The others are fully correct and compile without issues. All implementations are functional except Rosetta, which works but fails to clear the tail reference on the final dequeue, causing a minor memory‑leak issue; thus it is only plausible. The others are fully correct and compile without issues. All implementations are functional except Rosetta, which works but fails to clear the tail reference on the final dequeue, causing a minor memory‑leak issue; thus it is only plausible. The others are fully correct and compile without issues. All implementations are functional except Rosetta, which works but fails to clear the tail reference on the final dequeue, causing a minor memory‑leak issue; thus it is only plausible. The others are fully correct and compile without issues. All implementations are functional except Rosetta, which works but fails to clear the tail reference on the final dequeue, causing a minor memory‑leak issue; thus it is only plausible. The others are fully correct and compile without issues. All submissions compile and implement their respective data structures correctly. The queue implementations use linked nodes or Java's built‑in Queue with proper enqueue, dequeue, peek/isEmpty (and size where provided) semantics. The quicksort implementation follows the standard Lomuto partition algorithm and handles edge cases, making each code snippet functionally correct. All submissions compile and implement their respective data structures correctly. The queue implementations use linked nodes or Java's built‑in Queue with proper enqueue, dequeue, peek/isEmpty (and size where provided) semantics. The quicksort implementation follows the standard Lomuto partition algorithm and handles edge cases, making each code snippet functionally correct. All submissions compile and implement their respective data structures correctly. The queue implementations use linked nodes or Java's built‑in Queue with proper enqueue, dequeue, peek/isEmpty (and size where provided) semantics. The quicksort implementation follows the standard Lomuto partition algorithm and handles edge cases, making each code snippet functionally correct. All submissions compile and implement their respective data structures correctly. The queue implementations use linked nodes or Java's built‑in Queue with proper enqueue, dequeue, peek/isEmpty (and size where provided) semantics. The quicksort implementation follows the standard Lomuto partition algorithm and handles edge cases, making each code snippet functionally correct."
+    }
+  },
+  {
+    "quicksort": {
+      "verdicts": {
+        "AmazonQ": "correct",
+        "BlackBox": "correct",
+        "ChatGPT": "correct",
+        "Codeium": "correct",
+        "Copilot": "correct",
+        "Gemini": "correct",
+        "Rosetta": "correct",
+        "TheAlgorithms": "correct",
+        "deepseek-r1-distill-llama-70b": "correct",
+        "gemma2-9b-it": "correct",
+        "llama-3.2-90b-vision-preview": "correct",
+        "llama-3.3-70b-versatile": "correct",
+        "mixtral-8x7b-32768": "correct"
+      },
+      "summary": "All submissions compile and implement their respective data structures correctly. The queue implementations use linked nodes or Java's built‑in Queue with proper enqueue, dequeue, peek/isEmpty (and size where provided) semantics. The quicksort implementation follows the standard Lomuto partition algorithm and handles edge cases, making each code snippet functionally correct. All five submissions compile and implement a functional quicksort. They differ only in naming conventions (e.g., exposing a sort wrapper vs. direct quickSort) and in the comparison operator used during partitioning (strict < vs. <=), but each version correctly sorts an integer array. All five submissions compile and implement a functional quicksort. They differ only in naming conventions (e.g., exposing a sort wrapper vs. direct quickSort) and in the comparison operator used during partitioning (strict < vs. <=), but each version correctly sorts an integer array. All five submissions compile and implement a functional quicksort. They differ only in naming conventions (e.g., exposing a sort wrapper vs. direct quickSort) and in the comparison operator used during partitioning (strict < vs. <=), but each version correctly sorts an integer array. All five submissions compile and implement a functional quicksort. They differ only in naming conventions (e.g., exposing a sort wrapper vs. direct quickSort) and in the comparison operator used during partitioning (strict < vs. <=), but each version correctly sorts an integer array. All five submissions compile and implement a functional quicksort. They differ only in naming conventions (e.g., exposing a sort wrapper vs. direct quickSort) and in the comparison operator used during partitioning (strict < vs. <=), but each version correctly sorts an integer array. All five submissions compile and implement a functional quicksort. Rosetta uses a generic List‑based version, TheAlgorithms provides a generic array version (randomization is ineffective but does not break correctness), and the remaining three implement classic Lomuto‑style quicksort for int arrays. No significant logical errors were found. All five submissions compile and implement a functional quicksort. Rosetta uses a generic List‑based version, TheAlgorithms provides a generic array version (randomization is ineffective but does not break correctness), and the remaining three implement classic Lomuto‑style quicksort for int arrays. No significant logical errors were found. All five submissions compile and implement a functional quicksort. Rosetta uses a generic List‑based version, TheAlgorithms provides a generic array version (randomization is ineffective but does not break correctness), and the remaining three implement classic Lomuto‑style quicksort for int arrays. No significant logical errors were found. All five submissions compile and implement a functional quicksort. Rosetta uses a generic List‑based version, TheAlgorithms provides a generic array version (randomization is ineffective but does not break correctness), and the remaining three implement classic Lomuto‑style quicksort for int arrays. No significant logical errors were found. All five submissions compile and implement a functional quicksort. Rosetta uses a generic List‑based version, TheAlgorithms provides a generic array version (randomization is ineffective but does not break correctness), and the remaining three implement classic Lomuto‑style quicksort for int arrays. No significant logical errors were found. Both models generated fully functional quicksort implementations. The Llama version provides a convenient no‑argument overload and a separate print helper (unused), while the Mixtral version uses an inclusive comparison in partition and requires explicit low/high arguments. Both compile and correctly sort the array. Both models generated fully functional quicksort implementations. The Llama version provides a convenient no‑argument overload and a separate print helper (unused), while the Mixtral version uses an inclusive comparison in partition and requires explicit low/high arguments. Both compile and correctly sort the array."
+    }
+  },
+  {
+    "_errors": [
+      {
+        "error": "parse_failed",
+        "raw": ""
+      },
+      {
+        "error": "parse_failed",
+        "raw": ""
+      }
+    ]
+  }
+]
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,218 @@
+[
+  {
+    "avl": {
+      "verdicts": {
+        "BlackBox": "correct",
+        "amazonQ": "correct",
+        "codeium": "plausible",
+        "copilot": "correct",
+        "deepseek-r1-distill-llama-70b": "correct",
+        "gemini": "correct",
+        "gemma2-9b-it": "correct",
+        "llama-3.2-90b-vision-preview": "plausible",
+        "llama-3.3-70b-versatile": "correct",
+        "mixtral-8x7b-32768": "incorrect",
+        "rosetta": "correct",
+        "thealgorithms": "plausible"
+      },
+      "summary": "All models except avl||codeium produced correct AVL tree implementations. avl||codeium is plausible but has minor issues. All models except avl||codeium produced correct AVL tree implementations. avl||codeium is plausible but has minor issues. All models except avl||codeium produced correct AVL tree implementations. avl||codeium is plausible but has minor issues. All models except avl||codeium produced correct AVL tree implementations. avl||codeium is plausible but has minor issues. All models except avl||codeium produced correct AVL tree implementations. avl||codeium is plausible but has minor issues. llama-3.3-70b-versatile and rosetta implementations are correct, while llama-3.2-90b-vision-preview and thealgorithms have minor issues. mixtral-8x7b-32768 has significant errors in height update logic. llama-3.3-70b-versatile and rosetta implementations are correct, while llama-3.2-90b-vision-preview and thealgorithms have minor issues. mixtral-8x7b-32768 has significant errors in height update logic. llama-3.3-70b-versatile and rosetta implementations are correct, while llama-3.2-90b-vision-preview and thealgorithms have minor issues. mixtral-8x7b-32768 has significant errors in height update logic. llama-3.3-70b-versatile and rosetta implementations are correct, while llama-3.2-90b-vision-preview and thealgorithms have minor issues. mixtral-8x7b-32768 has significant errors in height update logic. llama-3.3-70b-versatile and rosetta implementations are correct, while llama-3.2-90b-vision-preview and thealgorithms have minor issues. mixtral-8x7b-32768 has significant errors in height update logic."
+    }
+  },
+  {
+    "beadsort": {
+      "verdicts": {
+        "BlackBox": "correct",
+        "amazonQ": "correct",
+        "chatGPT": "correct",
+        "codeium": "incorrect",
+        "copilot": "correct",
+        "deepseek-r1-distill-llama-70b": "incorrect",
+        "gemini": "plausible",
+        "gemma2-9b-it": "correct",
+        "llama-3.2-90b-vision-preview": "incorrect",
+        "llama-3.3-70b-versatile": "incorrect",
+        "mixtral-8x7b-32768": "plausible",
+        "rosetta": "correct",
+        "thealgorithms": "correct"
+      },
+      "summary": "BlackBox, amazonQ, and chatGPT implementations are correct. RAPL is invalid as it doesn't implement beadsort. codeium's implementation is incorrect as it doesn't correctly implement the beadsort algorithm. BlackBox, amazonQ, and chatGPT implementations are correct. RAPL is invalid as it doesn't implement beadsort. codeium's implementation is incorrect as it doesn't correctly implement the beadsort algorithm. BlackBox, amazonQ, and chatGPT implementations are correct. RAPL is invalid as it doesn't implement beadsort. codeium's implementation is incorrect as it doesn't correctly implement the beadsort algorithm. BlackBox, amazonQ, and chatGPT implementations are correct. RAPL is invalid as it doesn't implement beadsort. codeium's implementation is incorrect as it doesn't correctly implement the beadsort algorithm. BlackBox, amazonQ, and chatGPT implementations are correct. RAPL is invalid as it doesn't implement beadsort. codeium's implementation is incorrect as it doesn't correctly implement the beadsort algorithm. copilot and gemma2-9b-it implementations are correct, gemini is plausible due to potential stack overflow, deepseek-r1-distill-llama-70b is incorrect as it implements bubble sort, llama-3.2-90b-vision-preview is incorrect due to flawed logic copilot and gemma2-9b-it implementations are correct, gemini is plausible due to potential stack overflow, deepseek-r1-distill-llama-70b is incorrect as it implements bubble sort, llama-3.2-90b-vision-preview is incorrect due to flawed logic copilot and gemma2-9b-it implementations are correct, gemini is plausible due to potential stack overflow, deepseek-r1-distill-llama-70b is incorrect as it implements bubble sort, llama-3.2-90b-vision-preview is incorrect due to flawed logic copilot and gemma2-9b-it implementations are correct, gemini is plausible due to potential stack overflow, deepseek-r1-distill-llama-70b is incorrect as it implements bubble sort, llama-3.2-90b-vision-preview is incorrect due to flawed logic copilot and gemma2-9b-it implementations are correct, gemini is plausible due to potential stack overflow, deepseek-r1-distill-llama-70b is incorrect as it implements bubble sort, llama-3.2-90b-vision-preview is incorrect due to flawed logic The implementations of beadsort by rosetta and thealgorithms are correct and identical in logic. mixtral-8x7b-32768's implementation is plausible but lacks input validation and assumes non-negative integers. llama-3.3-70b-versatile's implementation is incorrect due to its failure to dynamically adjust the size of the 'beads' array based on the maximum value in the input array. The binarysearch implementation by BlackBox is correct. The implementations of beadsort by rosetta and thealgorithms are correct and identical in logic. mixtral-8x7b-32768's implementation is plausible but lacks input validation and assumes non-negative integers. llama-3.3-70b-versatile's implementation is incorrect due to its failure to dynamically adjust the size of the 'beads' array based on the maximum value in the input array. The binarysearch implementation by BlackBox is correct. The implementations of beadsort by rosetta and thealgorithms are correct and identical in logic. mixtral-8x7b-32768's implementation is plausible but lacks input validation and assumes non-negative integers. llama-3.3-70b-versatile's implementation is incorrect due to its failure to dynamically adjust the size of the 'beads' array based on the maximum value in the input array. The binarysearch implementation by BlackBox is correct. The implementations of beadsort by rosetta and thealgorithms are correct and identical in logic. mixtral-8x7b-32768's implementation is plausible but lacks input validation and assumes non-negative integers. llama-3.3-70b-versatile's implementation is incorrect due to its failure to dynamically adjust the size of the 'beads' array based on the maximum value in the input array. The binarysearch implementation by BlackBox is correct."
+    }
+  },
+  {
+    "binarysearch": {
+      "verdicts": {
+        "BlackBox": "correct",
+        "amazonQ": "correct",
+        "chatGPT": "correct",
+        "codeium": "plausible",
+        "copilot": "correct",
+        "deepseek-r1-distill-llama-70b": "correct",
+        "gemini": "correct",
+        "gemma2-9b-it": "correct",
+        "llama-3.2-90b-vision-preview": "correct",
+        "llama-3.3-70b-versatile": "plausible",
+        "mixtral-8x7b-32768": "plausible",
+        "rosetta": "incorrect",
+        "thealgorithms": "correct"
+      },
+      "summary": "The implementations of beadsort by rosetta and thealgorithms are correct and identical in logic. mixtral-8x7b-32768's implementation is plausible but lacks input validation and assumes non-negative integers. llama-3.3-70b-versatile's implementation is incorrect due to its failure to dynamically adjust the size of the 'beads' array based on the maximum value in the input array. The binarysearch implementation by BlackBox is correct. The RAPL implementation is invalid as it does not implement binary search. The amazonQ, chatGPT, and copilot implementations are correct. The codeium implementation is plausible but uses a less efficient sorting method. The RAPL implementation is invalid as it does not implement binary search. The amazonQ, chatGPT, and copilot implementations are correct. The codeium implementation is plausible but uses a less efficient sorting method. The RAPL implementation is invalid as it does not implement binary search. The amazonQ, chatGPT, and copilot implementations are correct. The codeium implementation is plausible but uses a less efficient sorting method. The RAPL implementation is invalid as it does not implement binary search. The amazonQ, chatGPT, and copilot implementations are correct. The codeium implementation is plausible but uses a less efficient sorting method. The RAPL implementation is invalid as it does not implement binary search. The amazonQ, chatGPT, and copilot implementations are correct. The codeium implementation is plausible but uses a less efficient sorting method. All models except llama-3.3-70b-versatile implemented binary search iteratively. llama-3.3-70b-versatile used a recursive approach, which is less efficient and riskier due to potential stack overflow for large inputs. All models except llama-3.3-70b-versatile implemented binary search iteratively. llama-3.3-70b-versatile used a recursive approach, which is less efficient and riskier due to potential stack overflow for large inputs. All models except llama-3.3-70b-versatile implemented binary search iteratively. llama-3.3-70b-versatile used a recursive approach, which is less efficient and riskier due to potential stack overflow for large inputs. All models except llama-3.3-70b-versatile implemented binary search iteratively. llama-3.3-70b-versatile used a recursive approach, which is less efficient and riskier due to potential stack overflow for large inputs. All models except llama-3.3-70b-versatile implemented binary search iteratively. llama-3.3-70b-versatile used a recursive approach, which is less efficient and riskier due to potential stack overflow for large inputs. mixtral-8x7b-32768's binary search is plausible but lacks input validation; rosetta's implementation is incorrect due to unsorted input array; thealgorithms' implementation is correct with both recursive and iterative methods; BlackBox's bogosort is plausible but inefficient; RAPL's submission is invalid as it doesn't implement bogosort. mixtral-8x7b-32768's binary search is plausible but lacks input validation; rosetta's implementation is incorrect due to unsorted input array; thealgorithms' implementation is correct with both recursive and iterative methods; BlackBox's bogosort is plausible but inefficient; RAPL's submission is invalid as it doesn't implement bogosort. mixtral-8x7b-32768's binary search is plausible but lacks input validation; rosetta's implementation is incorrect due to unsorted input array; thealgorithms' implementation is correct with both recursive and iterative methods; BlackBox's bogosort is plausible but inefficient; RAPL's submission is invalid as it doesn't implement bogosort."
+    }
+  },
+  {
+    "bogosort": {
+      "verdicts": {
+        "BlackBox": "plausible",
+        "amazonQ": "plausible",
+        "chatGPT": "plausible",
+        "codeium": "plausible",
+        "copilot": "plausible",
+        "deepseek-r1-distill-llama-70b": "correct",
+        "gemini": "plausible",
+        "gemma2-9b-it": "incorrect",
+        "llama-3.2-90b-vision-preview": "plausible",
+        "llama-3.3-70b-versatile": "correct",
+        "mixtral-8x7b-32768": "incorrect",
+        "rosetta": "plausible",
+        "thealgorithms": "plausible"
+      },
+      "summary": "mixtral-8x7b-32768's binary search is plausible but lacks input validation; rosetta's implementation is incorrect due to unsorted input array; thealgorithms' implementation is correct with both recursive and iterative methods; BlackBox's bogosort is plausible but inefficient; RAPL's submission is invalid as it doesn't implement bogosort. mixtral-8x7b-32768's binary search is plausible but lacks input validation; rosetta's implementation is incorrect due to unsorted input array; thealgorithms' implementation is correct with both recursive and iterative methods; BlackBox's bogosort is plausible but inefficient; RAPL's submission is invalid as it doesn't implement bogosort. All models provided functionally correct bogosort implementations with minor variations. deepseek-r1-distill-llama-70b's shuffle is more uniformly distributed. All models provided functionally correct bogosort implementations with minor variations. deepseek-r1-distill-llama-70b's shuffle is more uniformly distributed. All models provided functionally correct bogosort implementations with minor variations. deepseek-r1-distill-llama-70b's shuffle is more uniformly distributed. All models provided functionally correct bogosort implementations with minor variations. deepseek-r1-distill-llama-70b's shuffle is more uniformly distributed. All models provided functionally correct bogosort implementations with minor variations. deepseek-r1-distill-llama-70b's shuffle is more uniformly distributed. llama-3.3-70b-versatile provides the most correct implementation. gemini and llama-3.2-90b-vision-preview are plausible but have minor issues. gemma2-9b-it has buffer overflow and mixtral-8x7b-32768 implements a different sorting algorithm. llama-3.3-70b-versatile provides the most correct implementation. gemini and llama-3.2-90b-vision-preview are plausible but have minor issues. gemma2-9b-it has buffer overflow and mixtral-8x7b-32768 implements a different sorting algorithm. llama-3.3-70b-versatile provides the most correct implementation. gemini and llama-3.2-90b-vision-preview are plausible but have minor issues. gemma2-9b-it has buffer overflow and mixtral-8x7b-32768 implements a different sorting algorithm. llama-3.3-70b-versatile provides the most correct implementation. gemini and llama-3.2-90b-vision-preview are plausible but have minor issues. gemma2-9b-it has buffer overflow and mixtral-8x7b-32768 implements a different sorting algorithm. llama-3.3-70b-versatile provides the most correct implementation. gemini and llama-3.2-90b-vision-preview are plausible but have minor issues. gemma2-9b-it has buffer overflow and mixtral-8x7b-32768 implements a different sorting algorithm. Both bogosort implementations are plausible but lack verification of sorted output. BlackBox and amazonQ bubblesort implementations are correct, while RAPL is invalid due to being unrelated to bubblesort. Both bogosort implementations are plausible but lack verification of sorted output. BlackBox and amazonQ bubblesort implementations are correct, while RAPL is invalid due to being unrelated to bubblesort."
+    }
+  },
+  {
+    "bubblesort": {
+      "verdicts": {
+        "BlackBox": "correct",
+        "amazonQ": "correct",
+        "chatGPT": "correct",
+        "codeium": "incorrect",
+        "copilot": "correct",
+        "deepseek-r1-distill-llama-70b": "correct",
+        "gemini": "correct",
+        "gemma2-9b-it": "incorrect",
+        "llama-3.2-90b-vision-preview": "plausible",
+        "llama-3.3-70b-versatile": "correct",
+        "mixtral-8x7b-32768": "incorrect",
+        "rosetta": "correct",
+        "thealgorithms": "correct"
+      },
+      "summary": "Both bogosort implementations are plausible but lack verification of sorted output. BlackBox and amazonQ bubblesort implementations are correct, while RAPL is invalid due to being unrelated to bubblesort. Both bogosort implementations are plausible but lack verification of sorted output. BlackBox and amazonQ bubblesort implementations are correct, while RAPL is invalid due to being unrelated to bubblesort. Both bogosort implementations are plausible but lack verification of sorted output. BlackBox and amazonQ bubblesort implementations are correct, while RAPL is invalid due to being unrelated to bubblesort. All models except codeium produced correct or mostly correct implementations. codeium's implementation is incorrect due to the use of unseeded rand() function. All models except codeium produced correct or mostly correct implementations. codeium's implementation is incorrect due to the use of unseeded rand() function. All models except codeium produced correct or mostly correct implementations. codeium's implementation is incorrect due to the use of unseeded rand() function. All models except codeium produced correct or mostly correct implementations. codeium's implementation is incorrect due to the use of unseeded rand() function. All models except codeium produced correct or mostly correct implementations. codeium's implementation is incorrect due to the use of unseeded rand() function. The implementations by llama-3.3-70b-versatile and rosetta are correct. llama-3.2-90b-vision-preview is plausible due to missing seeding for rand(). gemma2-9b-it and mixtral-8x7b-32768 are incorrect due to unseeded rand() and lack of necessary includes. The implementations by llama-3.3-70b-versatile and rosetta are correct. llama-3.2-90b-vision-preview is plausible due to missing seeding for rand(). gemma2-9b-it and mixtral-8x7b-32768 are incorrect due to unseeded rand() and lack of necessary includes. The implementations by llama-3.3-70b-versatile and rosetta are correct. llama-3.2-90b-vision-preview is plausible due to missing seeding for rand(). gemma2-9b-it and mixtral-8x7b-32768 are incorrect due to unseeded rand() and lack of necessary includes. The implementations by llama-3.3-70b-versatile and rosetta are correct. llama-3.2-90b-vision-preview is plausible due to missing seeding for rand(). gemma2-9b-it and mixtral-8x7b-32768 are incorrect due to unseeded rand() and lack of necessary includes. The implementations by llama-3.3-70b-versatile and rosetta are correct. llama-3.2-90b-vision-preview is plausible due to missing seeding for rand(). gemma2-9b-it and mixtral-8x7b-32768 are incorrect due to unseeded rand() and lack of necessary includes. thealgorithms and amazonQ implementations are correct, BlackBox has significant errors, RAPL is unrelated to Dijkstra's algorithm"
+    }
+  },
+  {
+    "dijkstra": {
+      "verdicts": {
+        "BlackBox": "incorrect",
+        "amazonQ": "correct",
+        "chatGPT": "plausible",
+        "codeium": "plausible",
+        "copilot": "plausible",
+        "deepseek-r1-distill-llama-70b": "correct",
+        "gemini": "incorrect",
+        "gemma2-9b-it": "incorrect",
+        "llama-3.2-90b-vision-preview": "plausible",
+        "llama-3.3-70b-versatile": "correct",
+        "mixtral-8x7b-32768": "incorrect",
+        "rosetta": "correct",
+        "thealgorithms": "incorrect"
+      },
+      "summary": "thealgorithms and amazonQ implementations are correct, BlackBox has significant errors, RAPL is unrelated to Dijkstra's algorithm thealgorithms and amazonQ implementations are correct, BlackBox has significant errors, RAPL is unrelated to Dijkstra's algorithm thealgorithms and amazonQ implementations are correct, BlackBox has significant errors, RAPL is unrelated to Dijkstra's algorithm All models except deepseek-r1-distill-llama-70b have minor issues or missing functionality. deepseek-r1-distill-llama-70b implements Dijkstra's algorithm correctly using a priority queue. All models except deepseek-r1-distill-llama-70b have minor issues or missing functionality. deepseek-r1-distill-llama-70b implements Dijkstra's algorithm correctly using a priority queue. All models except deepseek-r1-distill-llama-70b have minor issues or missing functionality. deepseek-r1-distill-llama-70b implements Dijkstra's algorithm correctly using a priority queue. All models except deepseek-r1-distill-llama-70b have minor issues or missing functionality. deepseek-r1-distill-llama-70b implements Dijkstra's algorithm correctly using a priority queue. All models except deepseek-r1-distill-llama-70b have minor issues or missing functionality. deepseek-r1-distill-llama-70b implements Dijkstra's algorithm correctly using a priority queue. llama-3.3-70b-versatile and rosetta implementations are correct, llama-3.2-90b-vision-preview is plausible, while gemma2-9b-it and mixtral-8x7b-32768 contain significant errors. llama-3.3-70b-versatile and rosetta implementations are correct, llama-3.2-90b-vision-preview is plausible, while gemma2-9b-it and mixtral-8x7b-32768 contain significant errors. llama-3.3-70b-versatile and rosetta implementations are correct, llama-3.2-90b-vision-preview is plausible, while gemma2-9b-it and mixtral-8x7b-32768 contain significant errors. llama-3.3-70b-versatile and rosetta implementations are correct, llama-3.2-90b-vision-preview is plausible, while gemma2-9b-it and mixtral-8x7b-32768 contain significant errors. llama-3.3-70b-versatile and rosetta implementations are correct, llama-3.2-90b-vision-preview is plausible, while gemma2-9b-it and mixtral-8x7b-32768 contain significant errors. The Dijkstra implementation is incorrect due to the use of qsort in dequeue, which is not suitable for a priority queue. The Heapsort implementations by BlackBox, amazonQ, and chatGPT are correct. RAPL's submission is invalid as it doesn't implement Heapsort but rather focuses on energy consumption measurement."
+    }
+  },
+  {
+    "heapsort": {
+      "verdicts": {
+        "BlackBox": "correct",
+        "amazonQ": "correct",
+        "chatGPT": "correct",
+        "codeium": "plausible",
+        "copilot": "incorrect",
+        "deepseek-r1-distill-llama-70b": "correct",
+        "gemini": "correct",
+        "gemma2-9b-it": "invalid",
+        "llama-3.2-90b-vision-preview": "correct",
+        "llama-3.3-70b-versatile": "correct",
+        "mixtral-8x7b-32768": "incorrect",
+        "rosetta": "correct",
+        "thealgorithms": "incorrect"
+      },
+      "summary": "The Dijkstra implementation is incorrect due to the use of qsort in dequeue, which is not suitable for a priority queue. The Heapsort implementations by BlackBox, amazonQ, and chatGPT are correct. RAPL's submission is invalid as it doesn't implement Heapsort but rather focuses on energy consumption measurement. The Dijkstra implementation is incorrect due to the use of qsort in dequeue, which is not suitable for a priority queue. The Heapsort implementations by BlackBox, amazonQ, and chatGPT are correct. RAPL's submission is invalid as it doesn't implement Heapsort but rather focuses on energy consumption measurement. The Dijkstra implementation is incorrect due to the use of qsort in dequeue, which is not suitable for a priority queue. The Heapsort implementations by BlackBox, amazonQ, and chatGPT are correct. RAPL's submission is invalid as it doesn't implement Heapsort but rather focuses on energy consumption measurement. The Dijkstra implementation is incorrect due to the use of qsort in dequeue, which is not suitable for a priority queue. The Heapsort implementations by BlackBox, amazonQ, and chatGPT are correct. RAPL's submission is invalid as it doesn't implement Heapsort but rather focuses on energy consumption measurement. Most models implemented heapsort correctly, but with some variations in code quality and correctness. codeium's version is plausible but lacks seeding for rand(). copilot's version has a bug in the heapify call during extraction. deepseek-r1-distill-llama-70b and gemini's versions are correct. gemma2-9b-it's version is invalid due to the use of unseeded rand(). Most models implemented heapsort correctly, but with some variations in code quality and correctness. codeium's version is plausible but lacks seeding for rand(). copilot's version has a bug in the heapify call during extraction. deepseek-r1-distill-llama-70b and gemini's versions are correct. gemma2-9b-it's version is invalid due to the use of unseeded rand(). Most models implemented heapsort correctly, but with some variations in code quality and correctness. codeium's version is plausible but lacks seeding for rand(). copilot's version has a bug in the heapify call during extraction. deepseek-r1-distill-llama-70b and gemini's versions are correct. gemma2-9b-it's version is invalid due to the use of unseeded rand(). Most models implemented heapsort correctly, but with some variations in code quality and correctness. codeium's version is plausible but lacks seeding for rand(). copilot's version has a bug in the heapify call during extraction. deepseek-r1-distill-llama-70b and gemini's versions are correct. gemma2-9b-it's version is invalid due to the use of unseeded rand(). Most models implemented heapsort correctly, but with some variations in code quality and correctness. codeium's version is plausible but lacks seeding for rand(). copilot's version has a bug in the heapify call during extraction. deepseek-r1-distill-llama-70b and gemini's versions are correct. gemma2-9b-it's version is invalid due to the use of unseeded rand(). llama-3.2-90b-vision-preview, llama-3.3-70b-versatile, and rosetta implementations are correct. mixtral-8x7b-32768 fails due to missing srand initialization. thealgorithms is incorrect due to 1-based indexing and missing heapify for i=1 in build_maxheap. llama-3.2-90b-vision-preview, llama-3.3-70b-versatile, and rosetta implementations are correct. mixtral-8x7b-32768 fails due to missing srand initialization. thealgorithms is incorrect due to 1-based indexing and missing heapify for i=1 in build_maxheap. llama-3.2-90b-vision-preview, llama-3.3-70b-versatile, and rosetta implementations are correct. mixtral-8x7b-32768 fails due to missing srand initialization. thealgorithms is incorrect due to 1-based indexing and missing heapify for i=1 in build_maxheap. llama-3.2-90b-vision-preview, llama-3.3-70b-versatile, and rosetta implementations are correct. mixtral-8x7b-32768 fails due to missing srand initialization. thealgorithms is incorrect due to 1-based indexing and missing heapify for i=1 in build_maxheap. llama-3.2-90b-vision-preview, llama-3.3-70b-versatile, and rosetta implementations are correct. mixtral-8x7b-32768 fails due to missing srand initialization. thealgorithms is incorrect due to 1-based indexing and missing heapify for i=1 in build_maxheap."
+    }
+  },
+  {
+    "mergesort": {
+      "verdicts": {
+        "BlackBox": "plausible",
+        "amazonQ": "correct",
+        "chatGPT": "plausible",
+        "codeium": "incorrect",
+        "copilot": "plausible",
+        "deepseek-r1-distill-llama-70b": "correct",
+        "gemini": "plausible",
+        "gemma2-9b-it": "incorrect",
+        "llama-3.2-90b-vision-preview": "correct",
+        "llama-3.3-70b-versatile": "correct",
+        "mixtral-8x7b-32768": "incorrect",
+        "rosetta": "correct",
+        "thealgorithms": "correct"
+      },
+      "summary": "BlackBox and chatGPT implementations are mostly correct but have minor issues like missing srand() call. RAPL implementation is invalid as it doesn't implement mergesort. amazonQ implementation is correct. codeium implementation is incorrect due to the use of rand() without srand(). BlackBox and chatGPT implementations are mostly correct but have minor issues like missing srand() call. RAPL implementation is invalid as it doesn't implement mergesort. amazonQ implementation is correct. codeium implementation is incorrect due to the use of rand() without srand(). BlackBox and chatGPT implementations are mostly correct but have minor issues like missing srand() call. RAPL implementation is invalid as it doesn't implement mergesort. amazonQ implementation is correct. codeium implementation is incorrect due to the use of rand() without srand(). BlackBox and chatGPT implementations are mostly correct but have minor issues like missing srand() call. RAPL implementation is invalid as it doesn't implement mergesort. amazonQ implementation is correct. codeium implementation is incorrect due to the use of rand() without srand(). BlackBox and chatGPT implementations are mostly correct but have minor issues like missing srand() call. RAPL implementation is invalid as it doesn't implement mergesort. amazonQ implementation is correct. codeium implementation is incorrect due to the use of rand() without srand(). copilot and gemini implementations are mostly correct but lack verification of the sorted output. deepseek-r1-distill-llama-70b and llama-3.2-90b-vision-preview implementations are correct and properly structured. gemma2-9b-it is incorrect due to the use of uninitialized rand() function. copilot and gemini implementations are mostly correct but lack verification of the sorted output. deepseek-r1-distill-llama-70b and llama-3.2-90b-vision-preview implementations are correct and properly structured. gemma2-9b-it is incorrect due to the use of uninitialized rand() function. copilot and gemini implementations are mostly correct but lack verification of the sorted output. deepseek-r1-distill-llama-70b and llama-3.2-90b-vision-preview implementations are correct and properly structured. gemma2-9b-it is incorrect due to the use of uninitialized rand() function. copilot and gemini implementations are mostly correct but lack verification of the sorted output. deepseek-r1-distill-llama-70b and llama-3.2-90b-vision-preview implementations are correct and properly structured. gemma2-9b-it is incorrect due to the use of uninitialized rand() function. copilot and gemini implementations are mostly correct but lack verification of the sorted output. deepseek-r1-distill-llama-70b and llama-3.2-90b-vision-preview implementations are correct and properly structured. gemma2-9b-it is incorrect due to the use of uninitialized rand() function. All models except mixtral-8x7b-32768 implemented mergesort correctly. mixtral-8x7b-32768 failed to seed the random number generator, leading to undefined behavior. BlackBox implemented a queue correctly. All models except mixtral-8x7b-32768 implemented mergesort correctly. mixtral-8x7b-32768 failed to seed the random number generator, leading to undefined behavior. BlackBox implemented a queue correctly. All models except mixtral-8x7b-32768 implemented mergesort correctly. mixtral-8x7b-32768 failed to seed the random number generator, leading to undefined behavior. BlackBox implemented a queue correctly. All models except mixtral-8x7b-32768 implemented mergesort correctly. mixtral-8x7b-32768 failed to seed the random number generator, leading to undefined behavior. BlackBox implemented a queue correctly."
+    }
+  },
+  {
+    "queue": {
+      "verdicts": {
+        "BlackBox": "correct",
+        "amazonQ": "correct",
+        "chatGPT": "plausible",
+        "codeium": "plausible",
+        "copilot": "plausible",
+        "deepseek-r1-distill-llama-70b": "correct",
+        "gemini": "incorrect",
+        "gemma2-9b-it": "incorrect",
+        "llama-3.2-90b-vision-preview": "correct",
+        "llama-3.3-70b-versatile": "plausible",
+        "mixtral-8x7b-32768": "correct",
+        "rosetta": "plausible",
+        "thealgorithms": "correct"
+      },
+      "summary": "All models except mixtral-8x7b-32768 implemented mergesort correctly. mixtral-8x7b-32768 failed to seed the random number generator, leading to undefined behavior. BlackBox implemented a queue correctly. RAPL implementation is unrelated to the task. amazonQ provides a correct and robust queue implementation. chatGPT, codeium, and copilot provide plausible implementations with minor issues or lack of comprehensive testing. RAPL implementation is unrelated to the task. amazonQ provides a correct and robust queue implementation. chatGPT, codeium, and copilot provide plausible implementations with minor issues or lack of comprehensive testing. RAPL implementation is unrelated to the task. amazonQ provides a correct and robust queue implementation. chatGPT, codeium, and copilot provide plausible implementations with minor issues or lack of comprehensive testing. RAPL implementation is unrelated to the task. amazonQ provides a correct and robust queue implementation. chatGPT, codeium, and copilot provide plausible implementations with minor issues or lack of comprehensive testing. RAPL implementation is unrelated to the task. amazonQ provides a correct and robust queue implementation. chatGPT, codeium, and copilot provide plausible implementations with minor issues or lack of comprehensive testing. deepseek-r1-distill-llama-70b and llama-3.2-90b-vision-preview implementations are fully correct. llama-3.3-70b-versatile is mostly correct but lacks proper memory deallocation in main(). gemini and gemma2-9b-it implementations are incorrect due to flawed handling of queue operations with a fixed-size array. deepseek-r1-distill-llama-70b and llama-3.2-90b-vision-preview implementations are fully correct. llama-3.3-70b-versatile is mostly correct but lacks proper memory deallocation in main(). gemini and gemma2-9b-it implementations are incorrect due to flawed handling of queue operations with a fixed-size array. deepseek-r1-distill-llama-70b and llama-3.2-90b-vision-preview implementations are fully correct. llama-3.3-70b-versatile is mostly correct but lacks proper memory deallocation in main(). gemini and gemma2-9b-it implementations are incorrect due to flawed handling of queue operations with a fixed-size array. deepseek-r1-distill-llama-70b and llama-3.2-90b-vision-preview implementations are fully correct. llama-3.3-70b-versatile is mostly correct but lacks proper memory deallocation in main(). gemini and gemma2-9b-it implementations are incorrect due to flawed handling of queue operations with a fixed-size array. deepseek-r1-distill-llama-70b and llama-3.2-90b-vision-preview implementations are fully correct. llama-3.3-70b-versatile is mostly correct but lacks proper memory deallocation in main(). gemini and gemma2-9b-it implementations are incorrect due to flawed handling of queue operations with a fixed-size array. mixtral-8x7b-32768 and thealgorithms implemented queue correctly, rosetta's queue is mostly correct but has some minor issues, BlackBox implemented quicksort correctly, RAPL's submission is not a valid quicksort implementation mixtral-8x7b-32768 and thealgorithms implemented queue correctly, rosetta's queue is mostly correct but has some minor issues, BlackBox implemented quicksort correctly, RAPL's submission is not a valid quicksort implementation mixtral-8x7b-32768 and thealgorithms implemented queue correctly, rosetta's queue is mostly correct but has some minor issues, BlackBox implemented quicksort correctly, RAPL's submission is not a valid quicksort implementation"
+    }
+  },
+  {
+    "quicksort": {
+      "verdicts": {
+        "BlackBox": "correct",
+        "amazonQ": "correct",
+        "chatGPT": "correct",
+        "codeium": "plausible",
+        "copilot": "invalid",
+        "deepseek-r1-distill-llama-70b": "correct",
+        "gemini": "correct",
+        "gemma2-9b-it": "incorrect",
+        "llama-3.2-90b-vision-preview": "correct",
+        "llama-3.3-70b-versatile": "correct",
+        "mixtral-8x7b-32768": "incorrect",
+        "rosetta": "plausible",
+        "thealgorithms": "correct"
+      },
+      "summary": "mixtral-8x7b-32768 and thealgorithms implemented queue correctly, rosetta's queue is mostly correct but has some minor issues, BlackBox implemented quicksort correctly, RAPL's submission is not a valid quicksort implementation mixtral-8x7b-32768 and thealgorithms implemented queue correctly, rosetta's queue is mostly correct but has some minor issues, BlackBox implemented quicksort correctly, RAPL's submission is not a valid quicksort implementation Most models implemented quicksort correctly, but gemma2-9b-it and mixtral-8x7b-32768 had issues with the partition logic or missing srand initialization. Most models implemented quicksort correctly, but gemma2-9b-it and mixtral-8x7b-32768 had issues with the partition logic or missing srand initialization. Most models implemented quicksort correctly, but gemma2-9b-it and mixtral-8x7b-32768 had issues with the partition logic or missing srand initialization. Most models implemented quicksort correctly, but gemma2-9b-it and mixtral-8x7b-32768 had issues with the partition logic or missing srand initialization. Most models implemented quicksort correctly, but gemma2-9b-it and mixtral-8x7b-32768 had issues with the partition logic or missing srand initialization. Both implementations are functionally correct but have minor differences. 'rosetta' lacks verification of the sorted array and has a less conventional pivot selection. 'thealgorithms' includes a display function not used in main, but is otherwise correct and more traditional in its quicksort implementation. Both implementations are functionally correct but have minor differences. 'rosetta' lacks verification of the sorted array and has a less conventional pivot selection. 'thealgorithms' includes a display function not used in main, but is otherwise correct and more traditional in its quicksort implementation."
+    }
+  },
+  {
+    "_errors": [
+      {
+        "error": "api_error",
+        "message": "Error code: 413 - {'error': {'message': 'Request too large for model `meta-llama/llama-4-maverick-17b-128e-instruct` in organization `org_01jk4jg9ksfscv89tg6p55skxt` service tier `on_demand` on tokens per minute (TPM): Limit 6000, Requested 6178, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      },
+      {
+        "error": "parse_failed",
+        "raw": "```json\n{\n  \"verdicts\": {\n    \"quicksort||amazonQ\": \"correct\",\n    \"quicksort||chatGPT\": \"correct\",\n    \"quicksort||codeium\": \"correct\",\n    \"quicksort||copilot\": \"correct\",\n    \"quicksort||deepseek-r1-distill-llama-70b\": \"correct\"\n  },\n  \"summary\": \"All models provided correct implementations of quicksort in C, with amazonQ's version being the most optimized by incorporating median-of-three pivot selection and insertion sort for small subarrays.\"\n}\n```"
+      }
+    ]
+  }
+]
+
+
+
+
+

@@ -1,0 +1,187 @@
+[
+  {
+    "avl": {
+      "verdicts": {
+        "BlackBox": "correct",
+        "amazonQ": "invalid",
+        "chatGPT": "correct",
+        "codeium": "correct",
+        "copilot": "correct",
+        "deepseek-r1-distill-llama-70b": "correct",
+        "gemini": "plausible",
+        "gemma2-9b-it": "correct",
+        "llama-3.2-90b-vision-preview": "correct",
+        "llama-3.3-70b-versatile": "correct",
+        "mixtral-8x7b-32768": "correct",
+        "rosetta": "correct",
+        "theAlgorithms": "correct"
+      },
+      },
+  {
+    "beadsort": {
+      "verdicts": {
+        "AmazonQ": "correct",
+        "BlackBox": "correct",
+        "ChatGPT": "incorrect",
+        "Codeium": "correct",
+        "Copilot": "correct",
+        "Gemini": "plausible",
+        "Rosetta": "plausible",
+        "TheAlgorithms": "plausible",
+        "deepseek-r1-distill-llama-70b": "correct",
+        "gemma2-9b-it": "incorrect",
+        "llama-3.2-90b-vision-preview": "correct",
+        "llama-3.3-70b-versatile": "correct",
+        "mixtral-8x7b-32768": "incorrect"
+      },
+       },
+  {
+    "binarysearch": {
+      "verdicts": {
+        "AmazonQ": "correct",
+        "BlackBox": "correct",
+        "ChatGPT": "correct",
+        "Codeium": "correct",
+        "Copilot": "correct",
+        "Gemini": "correct",
+        "Rosetta": "correct",
+        "TheAlgorithms": "plausible",
+        "deepseek-r1-distill-llama-70b": "invalid",
+        "gemma2-9b-it": "invalid",
+        "llama-3.2-90b-vision-preview": "correct",
+        "llama-3.3-70b-versatile": "correct",
+        "mixtral-8x7b-32768": "correct"
+      },
+       },
+  {
+    "bogosort": {
+      "verdicts": {
+        "AmazonQ": "correct",
+        "BlackBox": "correct",
+        "ChatGPT": "plausible",
+        "Codeium": "correct",
+        "Copilot": "plausible",
+        "Gemini": "correct",
+        "Rosetta": "plausible",
+        "TheAlgorithms": "correct",
+        "deepseek-r1-distill-llama-70b": "incorrect",
+        "gemma2-9b-it": "correct",
+        "llama-3.2-90b-vision-preview": "correct",
+        "llama-3.3-70b-versatile": "correct",
+        "mixtral-8x7b-32768": "plausible"
+      },
+       }
+  },
+  {
+    "bubblesort": {
+      "verdicts": {
+        "BlackBox": "correct",
+        "amazonQ": "correct",
+        "chatGPT": "correct",
+        "codeium": "correct",
+        "copilot": "correct",
+        "deepseek-r1-distill-llama-70b": "correct",
+        "gemini": "correct",
+        "gemma2-9b-it": "plausible",
+        "llama-3.2-90b-vision-preview": "correct",
+        "llama-3.3-70b-versatile": "plausible",
+        "mixtral-8x7b-32768": "correct",
+        "rosetta": "correct",
+        "theAlgorithms": "incorrect"
+      },
+       },
+  {
+    "dijkstra": {
+      "verdicts": {
+        "BlackBox": "correct",
+        "amazonQ": "invalid",
+        "chatGPT": "correct",
+        "codeium": "plausible",
+        "copilot": "correct",
+        "deepseek-r1-distill-llama-70b": "correct",
+        "gemini": "plausible",
+        "gemma2-9b-it": "correct",
+        "llama-3.2-90b-vision-preview": "correct",
+        "llama-3.3-70b-versatile": "correct",
+        "mixtral-8x7b-32768": "correct",
+        "rosetta": "plausible",
+        "theAlgorithms": "incorrect"
+      },
+       },
+  {
+    "heapsort": {
+      "verdicts": {
+        "BlackBox": "incorrect",
+        "amazonQ": "correct",
+        "chatGPT": "correct",
+        "codeium": "correct",
+        "copilot": "correct",
+        "deepseek-r1-distill-llama-70b": "correct",
+        "gemini": "correct",
+        "gemma2-9b-it": "correct",
+        "llama-3.2-90b-vision-preview": "correct",
+        "llama-3.3-70b-versatile": "correct",
+        "mixtral-8x7b-32768": "correct",
+        "rosetta": "correct",
+        "theAlgorithms": "plausible"
+      },
+
+
+  },
+  {
+    "mergesort": {
+      "verdicts": {
+        "AmazonQ": "invalid",
+        "BlackBox": "correct",
+        "ChatGPT": "correct",
+        "Codeium": "correct",
+        "Copilot": "correct",
+        "Gemini": "correct",
+        "Rosetta": "plausible",
+        "TheAlgorithms": "correct",
+        "deepseek-r1-distill-llama-70b": "correct",
+        "gemma2-9b-it": "correct",
+        "llama-3.2-90b-vision-preview": "correct",
+        "llama-3.3-70b-versatile": "correct",
+        "mixtral-8x7b-32768": "correct"
+      },
+      },
+  {
+    "queue": {
+      "verdicts": {
+        "AmazonQ": "correct",
+        "BlackBox": "plausible",
+        "ChatGPT": "plausible",
+        "Codeium": "correct",
+        "Copilot": "correct",
+        "Gemini": "correct",
+        "Rosetta": "correct",
+        "TheAlgorithms": "correct",
+        "deepseek-r1-distill-llama-70b": "plausible",
+        "gemma2-9b-it": "correct",
+        "llama-3.2-90b-vision-preview": "correct",
+        "llama-3.3-70b-versatile": "correct",
+        "mixtral-8x7b-32768": "plausible"
+      },
+      },
+  {
+    "quicksort": {
+      "verdicts": {
+        "AmazonQ": "correct",
+        "BlackBox": "correct",
+        "ChatGPT": "plausible",
+        "Codeium": "correct",
+        "Copilot": "plausible",
+        "Gemini": "plausible",
+        "Rosetta": "correct",
+        "TheAlgorithms": "correct",
+        "deepseek-r1-distill-llama-70b": "correct",
+        "gemma2-9b-it": "correct",
+        "llama-3.2-90b-vision-preview": "plausible",
+        "llama-3.3-70b-versatile": "plausible",
+        "mixtral-8x7b-32768": "plausible"
+      },
+    },
+  }
+ ]
+

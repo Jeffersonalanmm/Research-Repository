@@ -1,0 +1,202 @@
+[
+  {
+    "bubblesort": {
+      "verdicts": {
+        "llama-3.3-70b-versatile": "correct",
+        "gemma2-9b-it": "correct",
+        "chatGPT": "correct",
+        "mixtral-8x7b-32768": "correct",
+        "amazonQ": "correct",
+        "codeium": "correct",
+        "llama-3.2-90b-vision-preview": "correct",
+        "deepseek-r1-distill-llama-70b": "correct",
+        "theAlgorithms": "incorrect",
+        "rosetta": "correct",
+        "gemini": "correct",
+        "copilot": "correct",
+        "BlackBox": "correct"
+      },
+      "summary": "The implementation correctly implements the bubble sort algorithm, handles array swapping correctly, and includes a test case to demonstrate its functionality. The implementation of bubble sort is correct, with proper swapping of elements and a correct termination condition. The implementation of bubble sort is correct, with proper use of nested loops and swapping logic. The array is properly initialized and the sorting method is called correctly. The implementation of bubble sort is correct, with proper handling of the swapped flag to optimize the algorithm when the array is already sorted. The implementation of bubblesort is correct, with proper use of the inner loop to reduce the number of comparisons and swaps as the array is sorted. The implementation of bubblesort is correct and logically sound, with proper handling of array indices and swapping logic. The implementation correctly implements the bubble sort algorithm, handles edge cases, and includes a termination condition to prevent unnecessary iterations. The implementation correctly implements the Bubble Sort algorithm with an optimization to stop early if the array becomes sorted. The code is well-structured and easy to follow. The implementation of the swap function is incorrect, it should swap the values at the specified indices, not at the indices minus one. The implementation of bubblesort is correct, with proper use of a flag to track if any swaps were made and a do-while loop to repeat the process until no more swaps are needed. The implementation of bubblesort is correct and logically sound, with proper handling of swapping and termination conditions. The implementation of bubblesort is correct, with proper use of nested loops and swapping logic. The test case in the main method is also correct, generating a random array and calling the bubbleSort method. The implementation of bubblesort is correct, with proper use of the outer and inner loops, and the swapping logic is also correct. The test case in the main method is also correct, generating a random array and sorting it using the bubblesort method. The implementation correctly implements the bubble sort algorithm, handles edge cases, and provides a clear example of its usage."
+    }
+  },
+  {
+    "bogosort": {
+      "verdicts": {
+        "llama-3.3-70b-versatile": "correct",
+        "Gemini": "correct",
+        "Rosetta": "plausible",
+        "gemma2-9b-it": "correct",
+        "mixtral-8x7b-32768": "correct",
+        "Copilot": "incorrect",
+        "ChatGPT": "plausible",
+        "AmazonQ": "plausible",
+        "llama-3.2-90b-vision-preview": "incorrect",
+        "deepseek-r1-distill-llama-70b": "incorrect",
+        "Codeium": "incorrect",
+        "BlackBox": "correct",
+        "TheAlgorithms": "correct"
+      },
+      "summary": "The implementation correctly implements the Bogo sort algorithm, checks for sorted arrays, and prints the sorted array along with the number of iterations. The implementation correctly implements the bogosort algorithm, which randomly shuffles the array until it is sorted. The implementation is mostly correct, but it lacks a termination condition for the bogo function. It will continue shuffling indefinitely until the array is sorted, which is inefficient. However, it does not contain any significant logical or implementation errors. The implementation correctly implements the bogoSort algorithm, checking for sortedness and shuffling the array until it is sorted. The implementation correctly implements the bogosort algorithm, generating random permutations of the input array until a sorted array is found. The implementation of bogoSort has a logical error: it does not guarantee that the array is sorted after a single shuffle, but rather after multiple shuffles. The while loop condition should be based on the result of isSorted, but the loop itself should be repeated until the array is sorted, not just until the condition is met. The implementation is mostly correct, but it lacks a termination condition to prevent infinite loops in cases where the input array is already sorted or has duplicate elements. The implementation is mostly correct, but it does not handle the case where the input array is null, and it does not provide any guarantee on the time complexity due to the lack of a termination condition based on the number of iterations. The implementation of the bogo sort algorithm is incorrect because it uses a Fisher-Yates shuffle, which is not suitable for bogo sort. Bogo sort requires a random permutation of the array, not a random shuffle. The implementation of the Bogo Sort algorithm is correct in terms of its logic, but it has a significant flaw in its implementation. The shuffle function uses the Fisher-Yates algorithm, which is correct, but the isSorted function does not check if the array is sorted in descending order, which is a requirement for Bogo Sort. Additionally, the main function does not return the number of attempts, which is a crucial part of the Bogo Sort algorithm. The implementation of bogosort is incorrect because it does not guarantee that the array will be sorted in the minimum number of shuffles required. The current implementation can result in an exponential number of shuffles, making it inefficient. The implementation correctly implements the Bogosort algorithm, which is a highly inefficient sorting algorithm that works by repeatedly shuffling the array until it happens to be sorted. The implementation correctly implements the bogosort algorithm, checking for sortedness and generating random permutations until the array is sorted."
+    }
+  },
+  {
+    "binarysearch": {
+      "verdicts": {
+        "llama-3.3-70b-versatile": "correct",
+        "Gemini": "correct",
+        "Rosetta": "correct",
+        "gemma2-9b-it": "correct",
+        "mixtral-8x7b-32768": "correct",
+        "Copilot": "correct",
+        "ChatGPT": "correct",
+        "AmazonQ": "correct",
+        "llama-3.2-90b-vision-preview": "correct",
+        "deepseek-r1-distill-llama-70b": "plausible",
+        "Codeium": "correct",
+        "BlackBox": "correct",
+        "TheAlgorithms": "correct"
+      },
+      "summary": "The implementation correctly handles the base case of the binary search algorithm and accurately updates the search space based on the comparison of the target element with the middle element of the current search range. The implementation correctly handles the binary search algorithm, including edge cases and target not found scenarios. The implementation correctly uses the binary search algorithm, handles edge cases, and returns the correct index of the target element or -1 if not found. The implementation correctly handles the binary search algorithm, avoiding potential overflow by calculating mid as left + (right - left) / 2. It also correctly handles the base case where the target is not found in the array. The implementation correctly handles the binary search algorithm, including edge cases and array bounds. The test case in the main method also correctly demonstrates the usage of the binarySearch method. The implementation correctly handles the binary search algorithm, including edge cases and target not found scenarios. The binary search implementation is correct and handles edge cases properly, including array bounds and potential overflow in the calculation of the mid index. Implementation is correct, handles edge cases, and includes both iterative and recursive versions of binary search. The implementation correctly handles the base case of the binary search algorithm, and the recursive logic is properly applied to find the target element in the sorted array. The implementation is mostly correct, but the main method is missing the target variable declaration and initialization. The implementation correctly handles the binary search algorithm, including edge cases and the termination condition. The implementation correctly handles the binary search algorithm, including edge cases and preventing integer overflow. The implementation correctly handles edge cases, recursively divides the search space, and uses the compareTo method to compare elements. The code also correctly handles the case when the key is found at the median index."
+    }
+  },
+  {
+    "mergesort": {
+      "verdicts": {
+        "llama-3.3-70b-versatile": "correct",
+        "Gemini": "correct",
+        "Rosetta": "correct",
+        "gemma2-9b-it": "correct",
+        "mixtral-8x7b-32768": "correct",
+        "Copilot": "correct",
+        "ChatGPT": "correct",
+        "AmazonQ": "incorrect",
+        "llama-3.2-90b-vision-preview": "correct",
+        "deepseek-r1-distill-llama-70b": "correct",
+        "Codeium": "correct",
+        "BlackBox": "correct",
+        "TheAlgorithms": "correct"
+      },
+      "summary": "The implementation correctly divides the array into two halves, recursively sorts them, and then merges the sorted halves using the merge function. The merge function correctly compares elements from both arrays and places them in the correct order in the result array. The implementation correctly divides the array into two halves, recursively sorts each half, and merges the sorted halves using a stable merge algorithm. The implementation correctly handles the base case, recursively splits the list, and merges the sorted sublists in ascending order. The implementation correctly handles the base case, recursively splits the array, and merges the sorted subarrays. The merge function correctly handles the case where one subarray is exhausted before the other. The implementation correctly handles edge cases, recursively divides the array, and merges the sorted subarrays. The merge function correctly handles the merging of two sorted subarrays. The implementation correctly follows the merge sort algorithm, handles edge cases, and demonstrates a clear understanding of the problem. The implementation correctly divides the array into two halves, recursively sorts them, and then merges the sorted halves using the merge function. The merge function correctly compares elements from both halves and places them in the correct order in the original array. The implementation has a logical error in the mergeSort method. The mergeSortHelper method is called recursively with the wrong parameters, and the merge method is not correctly implemented. The implementation correctly divides the array into two halves, recursively sorts them, and then merges the sorted halves using the merge function. The merge function correctly compares elements from both arrays and places them in the correct order in the result array. The implementation correctly implements the MergeSort algorithm with proper handling of edge cases and recursive calls. The implementation correctly divides the array into two halves, recursively sorts them, and then merges the sorted halves using the merge function. The merge function correctly compares elements from both arrays and places them in the correct order in the result array. The implementation correctly divides the array into two halves, recursively sorts them, and merges the sorted halves in a stable manner. The implementation correctly follows the merge sort algorithm, handles recursion, and merges subarrays correctly."
+    }
+  },
+  {
+    "avl": {
+      "verdicts": {
+        "llama-3.3-70b-versatile": "correct",
+        "gemma2-9b-it": "correct",
+        "chatGPT": "correct",
+        "mixtral-8x7b-32768": "correct",
+        "amazonQ": "incorrect",
+        "codeium": "correct",
+        "llama-3.2-90b-vision-preview": "correct",
+        "deepseek-r1-distill-llama-70b": "correct",
+        "theAlgorithms": "correct",
+        "rosetta": "correct",
+        "gemini": "correct",
+        "copilot": "incorrect",
+        "BlackBox": "correct"
+      },
+      "summary": "The implementation correctly handles insertions, rotations, and balance factor calculations, maintaining the AVL tree properties. The implementation correctly handles all AVL tree operations, including insertion, rotation, and height calculation, and demonstrates a thorough understanding of the AVL tree balancing algorithm. The implementation correctly handles all AVL tree operations, including insertion, rotation, and balance factor calculation, and demonstrates a good understanding of the AVL tree data structure. The implementation correctly handles all AVL tree operations, including insertion, rotation, and height updates, and demonstrates a good understanding of the AVL tree balancing algorithm. The implementation has a logical error in the remove method. The updateHeights method is called but its implementation is missing. Additionally, the removal logic is incomplete. The implementation correctly handles insertions, rotations, and balance factor calculations, maintaining the properties of an AVL tree. The implementation correctly handles insertion, deletion, and in-order traversal operations in an AVL tree, maintaining balance and adhering to the required properties. The implementation correctly handles insert, delete, search, and traversal operations, and maintains the balance of the AVL tree. The implementation correctly handles insertions, deletions, rotations, and balance factor calculations, maintaining the properties of an AVL tree. The implementation correctly handles insertions, deletions, and rebalancing of the AVL tree, maintaining the balance property and adhering to the required operations. The implementation correctly handles insertions, deletions, and rotations in the AVL tree, maintaining the balance factor and ensuring the tree remains approximately balanced. The implementation has a logical error in the insert method. The tree's root is being updated in every insertion, which is incorrect. The root should only be updated when the tree is rebalanced. The implementation correctly handles all four AVL tree balance cases and maintains the tree's height property."
+    }
+  },
+  {
+    "heapsort": {
+      "verdicts": {
+        "llama-3.3-70b-versatile": "correct",
+        "gemma2-9b-it": "correct",
+        "chatGPT": "correct",
+        "mixtral-8x7b-32768": "correct",
+        "amazonQ": "correct",
+        "codeium": "correct",
+        "llama-3.2-90b-vision-preview": "correct",
+        "deepseek-r1-distill-llama-70b": "correct",
+        "theAlgorithms": "correct",
+        "rosetta": "correct",
+        "gemini": "correct",
+        "copilot": "correct",
+        "BlackBox": "plausible"
+      },
+      "summary": "The implementation correctly builds a max heap and then repeatedly removes the maximum element, restoring the heap property after each removal. The heapify function is correctly implemented to maintain the heap property. The implementation correctly implements the heapsort algorithm, including the buildHeap and heapify methods, and the swap method. The main method demonstrates the usage of the sort method with a random array. The implementation correctly builds a max heap and then repeatedly swaps the root with the last element, heapifying the reduced heap each time, resulting in a sorted array. The implementation correctly builds a max heap and then repeatedly extracts the maximum element, maintaining the heap property throughout the process. The implementation correctly builds a max heap and then repeatedly removes the maximum element, restoring the heap property after each removal. The heapify function correctly identifies the largest element among the root and its children, and recursively heapifies the affected sub-tree. The main function demonstrates the usage of the sort method with a random array of integers. The implementation correctly builds a max heap and then repeatedly extracts the maximum element, restoring the heap property after each extraction. The implementation correctly implements the heapsort algorithm, including the buildHeap and heapify methods, and handles edge cases correctly. The implementation correctly implements the heapify and heapSort methods, and the main method demonstrates the sorting functionality with a random array. The implementation correctly follows the heapsort algorithm, with proper heapification, swapping, and sifting down. The code is well-structured and easy to follow. Implementation is logically correct and follows the standard heapsort algorithm. The implementation correctly builds a max heap and then repeatedly extracts the maximum element, restoring the heap property after each extraction. The implementation correctly follows the heapsort algorithm, including the build heap and extract elements phases, and handles edge cases properly. The implementation is mostly correct, but it lacks a sorting function to utilize the heapify method. It only calls heapify once, which is not enough to sort the array."
+    }
+  },
+  {
+    "beadsort": {
+      "verdicts": {
+        "llama-3.3-70b-versatile": "correct",
+        "Gemini": "correct",
+        "Rosetta": "correct",
+        "gemma2-9b-it": "correct",
+        "mixtral-8x7b-32768": "correct",
+        "Copilot": "correct",
+        "ChatGPT": "incorrect",
+        "AmazonQ": "incorrect",
+        "llama-3.2-90b-vision-preview": "correct",
+        "deepseek-r1-distill-llama-70b": "correct",
+        "Codeium": "correct",
+        "BlackBox": "correct",
+        "TheAlgorithms": "correct"
+      },
+      "summary": "The implementation correctly implements the Beadsort algorithm, accurately finding the maximum value, dropping and collecting beads, and producing a sorted array. The implementation correctly simulates the bead sort algorithm, accurately representing the beads and simulating the dropping process. The sorted values are then correctly extracted from the beads array. The implementation correctly simulates the beadsort algorithm, accurately counting the beads on each level of the abacus to produce the sorted array. The implementation correctly implements the bead sort algorithm, accurately finding the maximum value, placing beads in the correct positions, and then reconstructing the sorted array. The implementation correctly implements the bead sort algorithm, accurately handling edge cases and producing a sorted output. The implementation correctly represents the bead sort algorithm, accurately initializing and manipulating the beads to produce the sorted array. The implementation incorrectly assigns the fall count to the original array at the wrong index, and also fails to handle the case where the maximum value in the array is greater than the array length. The implementation of bead sort has a logical error in the way it simulates the falling of beads. The current implementation does not correctly simulate the falling of beads, resulting in incorrect sorting. The implementation correctly simulates the Beadsort algorithm, finding the maximum value, creating a grid of beads, and dropping the beads to count the number of beads in each column, resulting in a sorted array. The implementation correctly handles edge cases, computes the rods array, and builds the sorted array. It also correctly handles the case where all elements are 0 and the case where negative numbers are present. The implementation correctly implements the bead sort algorithm, finding the maximum value in the array, initializing and counting beads, and copying the sorted array back to the original array. The implementation correctly implements the bead sort algorithm, accurately simulating the process of dropping beads and counting them to sort the array. The implementation correctly implements the BeadSort algorithm, handles non-negative input, and extracts the sorted array from the grid."
+    }
+  },
+  {
+    "queue": {
+      "verdicts": {
+        "llama-3.3-70b-versatile": "correct",
+        "Gemini": "correct",
+        "Rosetta": "correct",
+        "gemma2-9b-it": "correct",
+        "mixtral-8x7b-32768": "correct",
+        "Copilot": "correct",
+        "ChatGPT": "correct",
+        "AmazonQ": "correct",
+        "llama-3.2-90b-vision-preview": "correct",
+        "deepseek-r1-distill-llama-70b": "correct",
+        "Codeium": "correct",
+        "BlackBox": "correct",
+        "TheAlgorithms": "correct"
+      },
+      "summary": "The implementation correctly handles enqueue, dequeue, peek, isEmpty, and size operations, and it properly handles edge cases such as empty queue and single-element queue. The implementation correctly handles queue operations, including enqueue, dequeue, and size, with proper error handling for empty queue conditions. The implementation correctly handles enqueue and dequeue operations, and the empty check is accurate. The provided test case also demonstrates the correct functionality of the queue. The implementation correctly handles enqueue, dequeue, and peek operations, and properly handles edge cases such as an empty queue. The implementation correctly uses a LinkedList to create a queue, and provides methods for enqueue, dequeue, isEmpty, and size. The main method demonstrates the usage of these methods. The implementation correctly handles queue operations, including enqueue, dequeue, front, and rear, with proper handling of edge cases such as full and empty queues. The implementation correctly handles queue operations, including enqueue, dequeue, and peek, with proper handling of edge cases such as an empty queue. The implementation correctly handles enqueue, dequeue, peek, and isEmpty operations, and the provided test case demonstrates its functionality. The implementation correctly handles queue operations, including enqueue, dequeue, peek, size, and isEmpty. It also correctly handles edge cases such as an empty queue and a queue with a single element. The implementation correctly handles enqueue, dequeue, and peek operations, and it properly handles edge cases such as an empty queue. The implementation correctly handles enqueue, dequeue, peek, size, and isEmpty operations, and it also includes a test case in the main method to demonstrate its usage. The implementation correctly handles enqueue and dequeue operations, including edge cases such as empty queue and last element removal. The implementation correctly handles queue operations, including insertion, removal, peeking, and checking for emptiness or fullness. It also correctly handles resizing and garbage collection."
+    }
+  },
+  {
+    "quicksort": {
+      "verdicts": {
+        "llama-3.3-70b-versatile": "correct",
+        "Gemini": "correct",
+        "Rosetta": "correct",
+        "gemma2-9b-it": "correct",
+        "mixtral-8x7b-32768": "correct",
+        "Copilot": "correct",
+        "ChatGPT": "correct",
+        "AmazonQ": "correct",
+        "llama-3.2-90b-vision-preview": "correct",
+        "deepseek-r1-distill-llama-70b": "correct",
+        "Codeium": "correct",
+        "BlackBox": "correct",
+        "TheAlgorithms": "correct"
+      },
+      "summary": "The implementation correctly follows the quicksort algorithm, handles edge cases, and includes necessary helper functions. The implementation correctly partitions the array and recursively sorts the subarrays, resulting in a fully functional quicksort algorithm. The implementation correctly partitions the array around the pivot, recursively sorts the sublists, and concatenates the results. It handles the base case of an empty array and uses the correct data structure for the sublists. The implementation correctly partitions the array and recursively sorts the sub-arrays, resulting in a fully functional and logically correct quicksort algorithm. The implementation correctly follows the quicksort algorithm, handles the base case, and recursively sorts the subarrays. The partition function is also correctly implemented, and the swap function is used correctly. The implementation correctly handles the base case, partitioning, and recursion for quicksort, and the test case demonstrates its functionality. The implementation correctly partitions the array and recursively sorts the subarrays, resulting in a fully functional and logically correct quicksort algorithm. Implementation of quicksort with correct partitioning and recursive calls, handles edge cases and example usage provided. The implementation correctly follows the quicksort algorithm, handles edge cases, and includes necessary helper functions. The implementation correctly handles edge cases, selects the pivot using the median of three method, and partitions the array correctly. The code is well-structured and easy to follow. Implementation of Quicksort algorithm with correct partitioning, recursion, and swapping logic. The implementation correctly handles the base case, recursively sorts the subarrays, and uses the partition scheme to maintain the invariants of the quicksort algorithm. The implementation correctly handles the recursive calls to doSort, the partitioning process, and the swapping of elements. It also correctly handles the edge cases and the comparison of elements."
+    }
+  },
+  {
+    "dijkstra": {
+      "verdicts": {
+        "llama-3.3-70b-versatile": "correct",
+        "gemma2-9b-it": "correct",
+        "chatGPT": "correct",
+        "mixtral-8x7b-32768": "correct",
+        "amazonQ": "correct",
+        "codeium": "correct",
+        "llama-3.2-90b-vision-preview": "correct",
+        "deepseek-r1-distill-llama-70b": "correct",
+        "theAlgorithms": "correct",
+        "rosetta": "correct",
+        "gemini": "correct",
+        "copilot": "plausible",
+        "BlackBox": "correct"
+      },
+      "summary": "The implementation correctly implements Dijkstra's algorithm, handles edge weights, and prints shortest distances and paths. It also includes a test case with a random graph and start node. The implementation correctly initializes distances to infinity, updates distances to neighbors, and uses a priority queue to efficiently select the next node to visit. The code also handles the case where a shorter path to a node is found, updating the distance and adding the node to the priority queue. The implementation correctly implements Dijkstra's algorithm for finding the shortest paths from a source vertex to all other vertices in a weighted graph. It uses a distance array to keep track of the minimum distance from the source vertex to each vertex, and a visited array to keep track of visited vertices. The algorithm iteratively selects the vertex with the minimum distance that has not been visited, updates the distances of its neighbors, and marks it as visited. The implementation also correctly handles the case where the graph is unweighted by setting all edge weights to 1. The implementation correctly implements Dijkstra's algorithm with a priority queue to efficiently select the next node to visit, and it handles the case where the graph is undirected by adding edges in both directions. The implementation correctly uses a priority queue to efficiently select the node with the minimum distance, and it properly updates the distances and the priority queue when a shorter path is found. The implementation correctly implements Dijkstra's algorithm, handles edge cases, and provides a clear and concise solution. The implementation correctly implements Dijkstra's algorithm, handles negative weights, and provides a clear and concise solution. The implementation correctly initializes distances, uses a priority queue, and explores neighbors to find the shortest distances from the start node to all other nodes in the graph. The implementation correctly implements Dijkstra's algorithm, handles edge cases, and provides a clear and concise solution. Implementation of Dijkstra's algorithm is correct and logically sound, handling edge cases and graph construction properly. The implementation correctly implements Dijkstra's algorithm with a priority queue to efficiently select the node with the minimum distance. It handles the edge case where the source node is the same as the destination node and correctly updates the distances in the priority queue. The implementation is mostly correct but has a minor flaw in the e_Neighbours method where it does not correctly update the priority queue with the new distances. The priority queue is not updated with the new distances when a shorter path is found, which can lead to incorrect results. The implementation correctly implements Dijkstra's algorithm, handling edge cases and correctly updating shortest distances and parent nodes."
+    }
+  }
+]

@@ -1,0 +1,223 @@
+[
+  {
+    "avl": {
+      "verdicts": {
+        "BlackBox": "correct",
+        "amazonQ": "correct",
+        "chatGPT": "correct",
+        "codeium": "correct",
+        "copilot": "correct",
+        "deepseek-r1-distill-llama-70b": "correct",
+        "gemini": "correct",
+        "gemma2-9b-it": "plausible",
+        "llama-3.2-90b-vision-preview": "correct",
+        "llama-3.3-70b-versatile": "correct",
+        "mixtral-8x7b-32768": "invalid",
+        "rosetta": "correct",
+        "theAlgorithms": "correct"
+      },
+      "summary": "All five implementations successfully build a working AVL tree with proper insertion, rotation logic, and height balancing. They differ mainly in interface style: BlackBox and codeium manage root internally; Amazon Q, ChatGPT and Copilot expose root as an explicit parameter, but all are functionally equivalent and correct. All five implementations successfully build a working AVL tree with proper insertion, rotation logic, and height balancing. They differ mainly in interface style: BlackBox and codeium manage root internally; Amazon Q, ChatGPT and Copilot expose root as an explicit parameter, but all are functionally equivalent and correct. All five implementations successfully build a working AVL tree with proper insertion, rotation logic, and height balancing. They differ mainly in interface style: BlackBox and codeium manage root internally; Amazon Q, ChatGPT and Copilot expose root as an explicit parameter, but all are functionally equivalent and correct. All five implementations successfully build a working AVL tree with proper insertion, rotation logic, and height balancing. They differ mainly in interface style: BlackBox and codeium manage root internally; Amazon Q, ChatGPT and Copilot expose root as an explicit parameter, but all are functionally equivalent and correct. All five implementations successfully build a working AVL tree with proper insertion, rotation logic, and height balancing. They differ mainly in interface style: BlackBox and codeium manage root internally; Amazon Q, ChatGPT and Copilot expose root as an explicit parameter, but all are functionally equivalent and correct. Deepseek and Gemini provide complete, balanced AVL trees with insert/delete/search. Llama-3.2 also supplies full functionality but references an unused 'value' variable. Gemma2-9b-it is missing delete/search and ignores stored values, making it only plausible. Deepseek and Gemini provide complete, balanced AVL trees with insert/delete/search. Llama-3.2 also supplies full functionality but references an unused 'value' variable. Gemma2-9b-it is missing delete/search and ignores stored values, making it only plausible. Deepseek and Gemini provide complete, balanced AVL trees with insert/delete/search. Llama-3.2 also supplies full functionality but references an unused 'value' variable. Gemma2-9b-it is missing delete/search and ignores stored values, making it only plausible. Deepseek and Gemini provide complete, balanced AVL trees with insert/delete/search. Llama-3.2 also supplies full functionality but references an unused 'value' variable. Gemma2-9b-it is missing delete/search and ignores stored values, making it only plausible. llama-3.3-70b-versatile delivered a complete, standards-compliant AVL tree with balanced insert/delete and rotation logic, while mixtral provided no code at all. llama-3.3-70b-versatile delivered a complete, standards-compliant AVL tree with balanced insert/delete and rotation logic, while mixtral provided no code at all. AVL implementation is solid and passes balance checks. BlackBox’s bead-sort correctly simulates falling beads columns; others misunderstand beads either by counting per-row (AmazonQ/ChatGPT) or by shuffling indices without bead physics (Codeium), yielding wrong results."
+    }
+  },
+  {
+    "beadsort": {
+      "verdicts": {
+        "BlackBox": "correct",
+        "amazonQ": "incorrect",
+        "chatGPT": "incorrect",
+        "codeium": "incorrect",
+        "copilot": "incorrect",
+        "deepseek-r1-distill-llama-70b": "invalid",
+        "gemini": "correct",
+        "gemma2-9b-it": "invalid",
+        "llama-3.2-90b-vision-preview": "invalid",
+        "llama-3.3-70b-versatile": "incorrect",
+        "mixtral-8x7b-32768": "invalid",
+        "rosetta": "correct",
+        "thealgorithms": "correct"
+      },
+      "summary": "AVL implementation is solid and passes balance checks. BlackBox’s bead-sort correctly simulates falling beads columns; others misunderstand beads either by counting per-row (AmazonQ/ChatGPT) or by shuffling indices without bead physics (Codeium), yielding wrong results. AVL implementation is solid and passes balance checks. BlackBox’s bead-sort correctly simulates falling beads columns; others misunderstand beads either by counting per-row (AmazonQ/ChatGPT) or by shuffling indices without bead physics (Codeium), yielding wrong results. AVL implementation is solid and passes balance checks. BlackBox’s bead-sort correctly simulates falling beads columns; others misunderstand beads either by counting per-row (AmazonQ/ChatGPT) or by shuffling indices without bead physics (Codeium), yielding wrong results. AVL implementation is solid and passes balance checks. BlackBox’s bead-sort correctly simulates falling beads columns; others misunderstand beads either by counting per-row (AmazonQ/ChatGPT) or by shuffling indices without bead physics (Codeium), yielding wrong results. Copilot’s code runs but produces an unsorted result because its gravity-like bead redistribution is mis-implemented, so it is incorrect. Deepseek’s and llama’s approaches treat the problem as radix/tube sort for decimal digits rather than the gravity-based bead system, thus failing the core algorithmic idea (invalid). Gemma2-9b-it implements a counting-sort/cumulative-count scheme totally unrelated to bead sort (invalid). Only Gemini faithfully models the beads-in-columns analogue, letting \"gravity\" settle beads and correctly reconstruct sorted counts; it works for non-negative integers and compiles and runs cleanly, so it is correct. Copilot’s code runs but produces an unsorted result because its gravity-like bead redistribution is mis-implemented, so it is incorrect. Deepseek’s and llama’s approaches treat the problem as radix/tube sort for decimal digits rather than the gravity-based bead system, thus failing the core algorithmic idea (invalid). Gemma2-9b-it implements a counting-sort/cumulative-count scheme totally unrelated to bead sort (invalid). Only Gemini faithfully models the beads-in-columns analogue, letting \"gravity\" settle beads and correctly reconstruct sorted counts; it works for non-negative integers and compiles and runs cleanly, so it is correct. Copilot’s code runs but produces an unsorted result because its gravity-like bead redistribution is mis-implemented, so it is incorrect. Deepseek’s and llama’s approaches treat the problem as radix/tube sort for decimal digits rather than the gravity-based bead system, thus failing the core algorithmic idea (invalid). Gemma2-9b-it implements a counting-sort/cumulative-count scheme totally unrelated to bead sort (invalid). Only Gemini faithfully models the beads-in-columns analogue, letting \"gravity\" settle beads and correctly reconstruct sorted counts; it works for non-negative integers and compiles and runs cleanly, so it is correct. Copilot’s code runs but produces an unsorted result because its gravity-like bead redistribution is mis-implemented, so it is incorrect. Deepseek’s and llama’s approaches treat the problem as radix/tube sort for decimal digits rather than the gravity-based bead system, thus failing the core algorithmic idea (invalid). Gemma2-9b-it implements a counting-sort/cumulative-count scheme totally unrelated to bead sort (invalid). Only Gemini faithfully models the beads-in-columns analogue, letting \"gravity\" settle beads and correctly reconstruct sorted counts; it works for non-negative integers and compiles and runs cleanly, so it is correct. Copilot’s code runs but produces an unsorted result because its gravity-like bead redistribution is mis-implemented, so it is incorrect. Deepseek’s and llama’s approaches treat the problem as radix/tube sort for decimal digits rather than the gravity-based bead system, thus failing the core algorithmic idea (invalid). Gemma2-9b-it implements a counting-sort/cumulative-count scheme totally unrelated to bead sort (invalid). Only Gemini faithfully models the beads-in-columns analogue, letting \"gravity\" settle beads and correctly reconstruct sorted counts; it works for non-negative integers and compiles and runs cleanly, so it is correct. llama-3.3-70b-versatile yields a fundamentally wrong beadsort that produces the wrong order; mixtral-8x7b-32768 returns only whitespace, hence invalid. Both rosetta and thealgorithms correctly implement distinct valid beadsort variants, while BlackBox supplies a textbook-correct binary search. llama-3.3-70b-versatile yields a fundamentally wrong beadsort that produces the wrong order; mixtral-8x7b-32768 returns only whitespace, hence invalid. Both rosetta and thealgorithms correctly implement distinct valid beadsort variants, while BlackBox supplies a textbook-correct binary search. llama-3.3-70b-versatile yields a fundamentally wrong beadsort that produces the wrong order; mixtral-8x7b-32768 returns only whitespace, hence invalid. Both rosetta and thealgorithms correctly implement distinct valid beadsort variants, while BlackBox supplies a textbook-correct binary search. llama-3.3-70b-versatile yields a fundamentally wrong beadsort that produces the wrong order; mixtral-8x7b-32768 returns only whitespace, hence invalid. Both rosetta and thealgorithms correctly implement distinct valid beadsort variants, while BlackBox supplies a textbook-correct binary search."
+    }
+  },
+  {
+    "binarysearch": {
+      "verdicts": {
+        "BlackBox": "correct",
+        "amazonQ": "incorrect",
+        "chatGPT": "correct",
+        "codeium": "correct",
+        "copilot": "correct",
+        "deepseek-r1-distill-llama-70b": "correct",
+        "gemini": "correct",
+        "gemma2-9b-it": "plausible",
+        "llama-3.2-90b-vision-preview": "plausible",
+        "llama-3.3-70b-versatile": "plausible",
+        "mixtral-8x7b-32768": "invalid",
+        "rosetta": "invalid",
+        "thealgorithms": "correct"
+      },
+      "summary": "llama-3.3-70b-versatile yields a fundamentally wrong beadsort that produces the wrong order; mixtral-8x7b-32768 returns only whitespace, hence invalid. Both rosetta and thealgorithms correctly implement distinct valid beadsort variants, while BlackBox supplies a textbook-correct binary search. AmazonQ alone fails because its main() references an undefined variable ‘recursive_result’, preventing runtime success despite solid binary-search logic; all other models supply clean, working implementations with only stylistic differences. AmazonQ alone fails because its main() references an undefined variable ‘recursive_result’, preventing runtime success despite solid binary-search logic; all other models supply clean, working implementations with only stylistic differences. AmazonQ alone fails because its main() references an undefined variable ‘recursive_result’, preventing runtime success despite solid binary-search logic; all other models supply clean, working implementations with only stylistic differences. AmazonQ alone fails because its main() references an undefined variable ‘recursive_result’, preventing runtime success despite solid binary-search logic; all other models supply clean, working implementations with only stylistic differences. AmazonQ alone fails because its main() references an undefined variable ‘recursive_result’, preventing runtime success despite solid binary-search logic; all other models supply clean, working implementations with only stylistic differences. Gemini produced a flawless, minimal implementation. The other three runnable models implemented the algorithm correctly but cluttered their test code with unused random numbers and ignored results. Mixtral failed to emit any meaningful code. Gemini produced a flawless, minimal implementation. The other three runnable models implemented the algorithm correctly but cluttered their test code with unused random numbers and ignored results. Mixtral failed to emit any meaningful code. Gemini produced a flawless, minimal implementation. The other three runnable models implemented the algorithm correctly but cluttered their test code with unused random numbers and ignored results. Mixtral failed to emit any meaningful code. Gemini produced a flawless, minimal implementation. The other three runnable models implemented the algorithm correctly but cluttered their test code with unused random numbers and ignored results. Mixtral failed to emit any meaningful code. Gemini produced a flawless, minimal implementation. The other three runnable models implemented the algorithm correctly but cluttered their test code with unused random numbers and ignored results. Mixtral failed to emit any meaningful code. Rosetta's binary search fails to import 'random' and misuses its function, so it won't run; TheAlgorithms version is complete and correct. BlackBox and ChatGPT produce working bogosort implementations, while AmazonQ provided no code at all. Rosetta's binary search fails to import 'random' and misuses its function, so it won't run; TheAlgorithms version is complete and correct. BlackBox and ChatGPT produce working bogosort implementations, while AmazonQ provided no code at all."
+    }
+  },
+  {
+    "bogosort": {
+      "verdicts": {
+        "BlackBox": "correct",
+        "amazonQ": "invalid",
+        "chatGPT": "correct",
+        "codeium": "correct",
+        "copilot": "correct",
+        "deepseek-r1-distill-llama-70b": "correct",
+        "gemini": "incorrect",
+        "gemma2-9b-it": "correct",
+        "llama-3.2-90b-vision-preview": "correct",
+        "llama-3.3-70b-versatile": "correct",
+        "mixtral-8x7b-32768": "invalid",
+        "rosetta": "correct",
+        "thealgorithms": "invalid"
+      },
+      "summary": "Rosetta's binary search fails to import 'random' and misuses its function, so it won't run; TheAlgorithms version is complete and correct. BlackBox and ChatGPT produce working bogosort implementations, while AmazonQ provided no code at all. Rosetta's binary search fails to import 'random' and misuses its function, so it won't run; TheAlgorithms version is complete and correct. BlackBox and ChatGPT produce working bogosort implementations, while AmazonQ provided no code at all. Rosetta's binary search fails to import 'random' and misuses its function, so it won't run; TheAlgorithms version is complete and correct. BlackBox and ChatGPT produce working bogosort implementations, while AmazonQ provided no code at all. All versions correctly implement the core shuffling and sorting-check logic. Only Gemini omits a return statement in bogo_sort, making the caller unable to retrieve the sorted data. The others expose proper return paths; DeepSeek adds a benign attempt counter. All versions correctly implement the core shuffling and sorting-check logic. Only Gemini omits a return statement in bogo_sort, making the caller unable to retrieve the sorted data. The others expose proper return paths; DeepSeek adds a benign attempt counter. All versions correctly implement the core shuffling and sorting-check logic. Only Gemini omits a return statement in bogo_sort, making the caller unable to retrieve the sorted data. The others expose proper return paths; DeepSeek adds a benign attempt counter. All versions correctly implement the core shuffling and sorting-check logic. Only Gemini omits a return statement in bogo_sort, making the caller unable to retrieve the sorted data. The others expose proper return paths; DeepSeek adds a benign attempt counter. All versions correctly implement the core shuffling and sorting-check logic. Only Gemini omits a return statement in bogo_sort, making the caller unable to retrieve the sorted data. The others expose proper return paths; DeepSeek adds a benign attempt counter. Both Llama variants and the Rosetta entry implement a working bogosort with correct stopping conditions and shuffling. Mixtral and TheAlgorithms submitted empty code, so they are invalid. Both Llama variants and the Rosetta entry implement a working bogosort with correct stopping conditions and shuffling. Mixtral and TheAlgorithms submitted empty code, so they are invalid. Both Llama variants and the Rosetta entry implement a working bogosort with correct stopping conditions and shuffling. Mixtral and TheAlgorithms submitted empty code, so they are invalid. Both Llama variants and the Rosetta entry implement a working bogosort with correct stopping conditions and shuffling. Mixtral and TheAlgorithms submitted empty code, so they are invalid. Both Llama variants and the Rosetta entry implement a working bogosort with correct stopping conditions and shuffling. Mixtral and TheAlgorithms submitted empty code, so they are invalid."
+    }
+  },
+  {
+    "bubblesort": {
+      "verdicts": {
+        "BlackBox": "correct",
+        "amazonQ": "correct",
+        "chatGPT": "correct",
+        "codeium": "correct",
+        "copilot": "correct",
+        "deepseek-r1-distill-llama-70b": "correct",
+        "gemini": "correct",
+        "gemma2-9b-it": "correct",
+        "llama-3.2-90b-vision-preview": "correct",
+        "llama-3.3-70b-versatile": "correct",
+        "mixtral-8x7b-32768": "invalid",
+        "rosetta": "correct",
+        "theAlgorithms": "correct"
+      },
+      "summary": "All five submissions implement a valid in-place bubble sort on lists of integers. They differ only in the presence or absence of an early-exit flag (copilot omits it, making it slightly less efficient), but all are functionally correct and runnable. All five submissions implement a valid in-place bubble sort on lists of integers. They differ only in the presence or absence of an early-exit flag (copilot omits it, making it slightly less efficient), but all are functionally correct and runnable. All five submissions implement a valid in-place bubble sort on lists of integers. They differ only in the presence or absence of an early-exit flag (copilot omits it, making it slightly less efficient), but all are functionally correct and runnable. All five submissions implement a valid in-place bubble sort on lists of integers. They differ only in the presence or absence of an early-exit flag (copilot omits it, making it slightly less efficient), but all are functionally correct and runnable. All five submissions implement a valid in-place bubble sort on lists of integers. They differ only in the presence or absence of an early-exit flag (copilot omits it, making it slightly less efficient), but all are functionally correct and runnable. All five submissions implement the optimized bubble-sort correctly, using an early-exit flag and proper loop bounds; they differ only in cosmetic style. All five submissions implement the optimized bubble-sort correctly, using an early-exit flag and proper loop bounds; they differ only in cosmetic style. All five submissions implement the optimized bubble-sort correctly, using an early-exit flag and proper loop bounds; they differ only in cosmetic style. All five submissions implement the optimized bubble-sort correctly, using an early-exit flag and proper loop bounds; they differ only in cosmetic style. All five submissions implement the optimized bubble-sort correctly, using an early-exit flag and proper loop bounds; they differ only in cosmetic style. mixtral submission is empty; rosetta’s bubblesort correctly sorts in-place; theAlgorithms implementation is exhaustive and correct; BlackBox’s dijkstra uses a heap, correctly updates distances/predecessors and compiles. mixtral submission is empty; rosetta’s bubblesort correctly sorts in-place; theAlgorithms implementation is exhaustive and correct; BlackBox’s dijkstra uses a heap, correctly updates distances/predecessors and compiles. mixtral submission is empty; rosetta’s bubblesort correctly sorts in-place; theAlgorithms implementation is exhaustive and correct; BlackBox’s dijkstra uses a heap, correctly updates distances/predecessors and compiles."
+    }
+  },
+  {
+    "dijkstra": {
+      "verdicts": {
+        "BlackBox": "correct",
+        "amazonQ": "correct",
+        "chatGPT": "correct",
+        "codeium": "correct",
+        "copilot": "correct",
+        "deepseek-r1-distill-llama-70b": "correct",
+        "gemini": "correct",
+        "gemma2-9b-it": "correct",
+        "llama-3.2-90b-vision-preview": "correct",
+        "llama-3.3-70b-versatile": "correct",
+        "mixtral-8x7b-32768": "invalid",
+        "rosetta": "incorrect",
+        "theAlgorithms": "correct"
+      },
+      "summary": "mixtral submission is empty; rosetta’s bubblesort correctly sorts in-place; theAlgorithms implementation is exhaustive and correct; BlackBox’s dijkstra uses a heap, correctly updates distances/predecessors and compiles. All five implementations correctly implement Dijkstra's algorithm using a min-heap and distance relaxation. They differ slightly in return values (distances only vs. distances plus predecessors), but all are logically sound and handle the core algorithm correctly. All five implementations correctly implement Dijkstra's algorithm using a min-heap and distance relaxation. They differ slightly in return values (distances only vs. distances plus predecessors), but all are logically sound and handle the core algorithm correctly. All five implementations correctly implement Dijkstra's algorithm using a min-heap and distance relaxation. They differ slightly in return values (distances only vs. distances plus predecessors), but all are logically sound and handle the core algorithm correctly. All five implementations correctly implement Dijkstra's algorithm using a min-heap and distance relaxation. They differ slightly in return values (distances only vs. distances plus predecessors), but all are logically sound and handle the core algorithm correctly. All five implementations correctly implement Dijkstra's algorithm using a min-heap and distance relaxation. They differ slightly in return values (distances only vs. distances plus predecessors), but all are logically sound and handle the core algorithm correctly. Four models produced runnable and correct implementations of Dijkstra’s algorithm, while mixtral returned only an empty submission. Four models produced runnable and correct implementations of Dijkstra’s algorithm, while mixtral returned only an empty submission. Four models produced runnable and correct implementations of Dijkstra’s algorithm, while mixtral returned only an empty submission. Four models produced runnable and correct implementations of Dijkstra’s algorithm, while mixtral returned only an empty submission. Four models produced runnable and correct implementations of Dijkstra’s algorithm, while mixtral returned only an empty submission. Rosetta’s dijkstra returns an un-reversed path and treats the graph as undirected; theAlgorithms version correctly returns shortest-path cost. All three heapsorts are valid and equivalent; chatGPT’s heapify reverses the comparison direction yet still works. Rosetta’s dijkstra returns an un-reversed path and treats the graph as undirected; theAlgorithms version correctly returns shortest-path cost. All three heapsorts are valid and equivalent; chatGPT’s heapify reverses the comparison direction yet still works."
+    }
+  },
+  {
+    "heapsort": {
+      "verdicts": {
+        "BlackBox": "correct",
+        "amazonQ": "correct",
+        "chatGPT": "correct",
+        "codeium": "incorrect",
+        "copilot": "plausible",
+        "deepseek-r1-distill-llama-70b": "correct",
+        "gemma2-9b-it": "correct",
+        "gemini": "invalid",
+        "llama-3.2-90b-vision-preview": "correct",
+        "llama-3.3-70b-versatile": "correct",
+        "mixtral-8x7b-32768": "invalid",
+        "rosetta": "correct",
+        "theAlgorithms": "correct"
+      },
+      "summary": "Rosetta’s dijkstra returns an un-reversed path and treats the graph as undirected; theAlgorithms version correctly returns shortest-path cost. All three heapsorts are valid and equivalent; chatGPT’s heapify reverses the comparison direction yet still works. Rosetta’s dijkstra returns an un-reversed path and treats the graph as undirected; theAlgorithms version correctly returns shortest-path cost. All three heapsorts are valid and equivalent; chatGPT’s heapify reverses the comparison direction yet still works. Rosetta’s dijkstra returns an un-reversed path and treats the graph as undirected; theAlgorithms version correctly returns shortest-path cost. All three heapsorts are valid and equivalent; chatGPT’s heapify reverses the comparison direction yet still works. Four implementations are complete and correct; mixtral-8x7b-32768 returned no code, hence invalid. Four implementations are complete and correct; mixtral-8x7b-32768 returned no code, hence invalid. Four implementations are complete and correct; mixtral-8x7b-32768 returned no code, hence invalid. Four implementations are complete and correct; mixtral-8x7b-32768 returned no code, hence invalid. Four implementations are complete and correct; mixtral-8x7b-32768 returned no code, hence invalid. All implementations are correct: heapsorts properly build a max-heap and sort, and all mergesorts correctly split, recurse, and merge. The BlackBox variant uses pop(0) which is O(n) per operation but still logically valid. All implementations are correct: heapsorts properly build a max-heap and sort, and all mergesorts correctly split, recurse, and merge. The BlackBox variant uses pop(0) which is O(n) per operation but still logically valid."
+    }
+  },
+  {
+    "mergesort": {
+      "verdicts": {
+        "AmazonQ": "correct",
+        "BlackBox": "correct",
+        "ChatGPT": "correct",
+        "Codeium": "incorrect",
+        "Copilot": "incorrect",
+        "Rosetta": "plausible",
+        "TheAlgorithms": "correct",
+        "deepseek-r1-distill-llama-70b": "correct",
+        "gemini": "correct",
+        "gemma2-9b-it": "correct",
+        "llama-3.2-90b-vision-preview": "correct",
+        "llama-3.3-70b-versatile": "correct",
+        "mixtral-8x7x-32768": "invalid"
+      },
+      "summary": "All implementations are correct: heapsorts properly build a max-heap and sort, and all mergesorts correctly split, recurse, and merge. The BlackBox variant uses pop(0) which is O(n) per operation but still logically valid. All implementations are correct: heapsorts properly build a max-heap and sort, and all mergesorts correctly split, recurse, and merge. The BlackBox variant uses pop(0) which is O(n) per operation but still logically valid. All implementations are correct: heapsorts properly build a max-heap and sort, and all mergesorts correctly split, recurse, and merge. The BlackBox variant uses pop(0) which is O(n) per operation but still logically valid. Codeium and Copilot both contain significant logical errors: Codeium uses pop(0) leading to O(n^2) behavior and incorrect merge results, Copilot sorts in-place but fails to return the sorted list, silently discarding the result. Rosetta supplies both a correct internal merge function and calls heapq.merge, creating redundancy but functional code. TheAlgorithms relies solely on heapq.merge, resulting in concise and correct code. Codeium and Copilot both contain significant logical errors: Codeium uses pop(0) leading to O(n^2) behavior and incorrect merge results, Copilot sorts in-place but fails to return the sorted list, silently discarding the result. Rosetta supplies both a correct internal merge function and calls heapq.merge, creating redundancy but functional code. TheAlgorithms relies solely on heapq.merge, resulting in concise and correct code. Codeium and Copilot both contain significant logical errors: Codeium uses pop(0) leading to O(n^2) behavior and incorrect merge results, Copilot sorts in-place but fails to return the sorted list, silently discarding the result. Rosetta supplies both a correct internal merge function and calls heapq.merge, creating redundancy but functional code. TheAlgorithms relies solely on heapq.merge, resulting in concise and correct code. Codeium and Copilot both contain significant logical errors: Codeium uses pop(0) leading to O(n^2) behavior and incorrect merge results, Copilot sorts in-place but fails to return the sorted list, silently discarding the result. Rosetta supplies both a correct internal merge function and calls heapq.merge, creating redundancy but functional code. TheAlgorithms relies solely on heapq.merge, resulting in concise and correct code. All five implementations correctly implement the merge sort algorithm and produce the expected sorted list. They follow a similar recursive divide-and-conquer approach and handle both the base case and the merge step properly, with no compilation or runtime errors. Minor cosmetic and style differences exist but none affect correctness. All five implementations correctly implement the merge sort algorithm and produce the expected sorted list. They follow a similar recursive divide-and-conquer approach and handle both the base case and the merge step properly, with no compilation or runtime errors. Minor cosmetic and style differences exist but none affect correctness. All five implementations correctly implement the merge sort algorithm and produce the expected sorted list. They follow a similar recursive divide-and-conquer approach and handle both the base case and the merge step properly, with no compilation or runtime errors. Minor cosmetic and style differences exist but none affect correctness. All five implementations correctly implement the merge sort algorithm and produce the expected sorted list. They follow a similar recursive divide-and-conquer approach and handle both the base case and the merge step properly, with no compilation or runtime errors. Minor cosmetic and style differences exist but none affect correctness. All five implementations correctly implement the merge sort algorithm and produce the expected sorted list. They follow a similar recursive divide-and-conquer approach and handle both the base case and the merge step properly, with no compilation or runtime errors. Minor cosmetic and style differences exist but none affect correctness. BlackBox and Codeium produced working linked-list and list-based queues respectively. ChatGPT’s dequeue/peek return None instead of raising on empty, violating classic queue contract. AmazonQ and mixtral submissions are missing (empty source), hence invalid."
+    }
+  },
+  {
+    "queue": {
+      "verdicts": {
+        "AmazonQ": "invalid",
+        "BlackBox": "correct",
+        "ChatGPT": "incorrect",
+        "Codeium": "correct",
+        "Copilot": "correct",
+        "Gemini": "correct",
+        "Rosetta": "incorrect",
+        "TheAlgorithms": "correct",
+        "deepseek-r1-distill-llama-70b": "correct",
+        "gemma2-9b-it": "plausible",
+        "llama-3.2-90b-vision-preview": "plausible",
+        "llama-3.3-70b-versatile": "correct",
+        "mixtral-8x7b-32768": "invalid"
+      },
+      "summary": "BlackBox and Codeium produced working linked-list and list-based queues respectively. ChatGPT’s dequeue/peek return None instead of raising on empty, violating classic queue contract. AmazonQ and mixtral submissions are missing (empty source), hence invalid. BlackBox and Codeium produced working linked-list and list-based queues respectively. ChatGPT’s dequeue/peek return None instead of raising on empty, violating classic queue contract. AmazonQ and mixtral submissions are missing (empty source), hence invalid. BlackBox and Codeium produced working linked-list and list-based queues respectively. ChatGPT’s dequeue/peek return None instead of raising on empty, violating classic queue contract. AmazonQ and mixtral submissions are missing (empty source), hence invalid. BlackBox and Codeium produced working linked-list and list-based queues respectively. ChatGPT’s dequeue/peek return None instead of raising on empty, violating classic queue contract. AmazonQ and mixtral submissions are missing (empty source), hence invalid. Copilot, Gemini, TheAlgorithms, and deepseek-r1-distill-llama-70b all supply fully functional FIFO queues with consistent behavior and proper edge-case handling. Rosetta’s FIFO fails the empty-queue guard (empty returns inverted bool) and uses py2-style iteration, breaking contract correctness. Copilot, Gemini, TheAlgorithms, and deepseek-r1-distill-llama-70b all supply fully functional FIFO queues with consistent behavior and proper edge-case handling. Rosetta’s FIFO fails the empty-queue guard (empty returns inverted bool) and uses py2-style iteration, breaking contract correctness. Copilot, Gemini, TheAlgorithms, and deepseek-r1-distill-llama-70b all supply fully functional FIFO queues with consistent behavior and proper edge-case handling. Rosetta’s FIFO fails the empty-queue guard (empty returns inverted bool) and uses py2-style iteration, breaking contract correctness. Copilot, Gemini, TheAlgorithms, and deepseek-r1-distill-llama-70b all supply fully functional FIFO queues with consistent behavior and proper edge-case handling. Rosetta’s FIFO fails the empty-queue guard (empty returns inverted bool) and uses py2-style iteration, breaking contract correctness. Copilot, Gemini, TheAlgorithms, and deepseek-r1-distill-llama-70b all supply fully functional FIFO queues with consistent behavior and proper edge-case handling. Rosetta’s FIFO fails the empty-queue guard (empty returns inverted bool) and uses py2-style iteration, breaking contract correctness. Correct linked-list queue from llama-3.3-70b-versatile. List-based queues from gemma2-9b-it and llama-3.2-90b-vision-preview are functionally okay but O(n) dequeue. mixtral-8x7b-32768 provided no code. AmazonQ’s quicksort has an unmatched paren plus an unused helper, making it incorrect. Correct linked-list queue from llama-3.3-70b-versatile. List-based queues from gemma2-9b-it and llama-3.2-90b-vision-preview are functionally okay but O(n) dequeue. mixtral-8x7b-32768 provided no code. AmazonQ’s quicksort has an unmatched paren plus an unused helper, making it incorrect. Correct linked-list queue from llama-3.3-70b-versatile. List-based queues from gemma2-9b-it and llama-3.2-90b-vision-preview are functionally okay but O(n) dequeue. mixtral-8x7b-32768 provided no code. AmazonQ’s quicksort has an unmatched paren plus an unused helper, making it incorrect. Correct linked-list queue from llama-3.3-70b-versatile. List-based queues from gemma2-9b-it and llama-3.2-90b-vision-preview are functionally okay but O(n) dequeue. mixtral-8x7b-32768 provided no code. AmazonQ’s quicksort has an unmatched paren plus an unused helper, making it incorrect."
+    }
+  },
+  {
+    "quicksort": {
+      "verdicts": {
+        "AmazonQ": "incorrect",
+        "BlackBox": "correct",
+        "ChatGPT": "correct",
+        "Codeium": "correct",
+        "Copilot": "correct",
+        "Gemini": "correct",
+        "Rosetta": "correct",
+        "TheAlgorithms": "correct",
+        "deepseek-r1-distill-llama-70b": "correct",
+        "gemma2-9b-it": "correct",
+        "llama-3.2-90b-vision-preview": "correct",
+        "llama-3.3-70b-versatile": "correct",
+        "mixtral-8x7b-32768": "invalid"
+      },
+      "summary": "Correct linked-list queue from llama-3.3-70b-versatile. List-based queues from gemma2-9b-it and llama-3.2-90b-vision-preview are functionally okay but O(n) dequeue. mixtral-8x7b-32768 provided no code. AmazonQ’s quicksort has an unmatched paren plus an unused helper, making it incorrect. All five submissions correctly implement a functional quicksort in Python. They use the recursive divide‐and‐conquer pattern with partitioning into sub‐lists and combine results properly. Although they differ in pivot choice (midpoint, last element, first element), they each correctly sort the array. All five submissions correctly implement a functional quicksort in Python. They use the recursive divide‐and‐conquer pattern with partitioning into sub‐lists and combine results properly. Although they differ in pivot choice (midpoint, last element, first element), they each correctly sort the array. All five submissions correctly implement a functional quicksort in Python. They use the recursive divide‐and‐conquer pattern with partitioning into sub‐lists and combine results properly. Although they differ in pivot choice (midpoint, last element, first element), they each correctly sort the array. All five submissions correctly implement a functional quicksort in Python. They use the recursive divide‐and‐conquer pattern with partitioning into sub‐lists and combine results properly. Although they differ in pivot choice (midpoint, last element, first element), they each correctly sort the array. All five submissions correctly implement a functional quicksort in Python. They use the recursive divide‐and‐conquer pattern with partitioning into sub‐lists and combine results properly. Although they differ in pivot choice (midpoint, last element, first element), they each correctly sort the array. All five implementations are logically correct variations of quicksort: Rosetta and gemma2-9b-it use the first element as pivot; llama-3.2-90b-vision-preview uses the middle element; TheAlgorithms employs a randomized pivot and in-place pop; deepseek-r1-distill-llama-70b performs in-place sorting with Lomuto partitioning. None contain runtime or compilation errors. All five implementations are logically correct variations of quicksort: Rosetta and gemma2-9b-it use the first element as pivot; llama-3.2-90b-vision-preview uses the middle element; TheAlgorithms employs a randomized pivot and in-place pop; deepseek-r1-distill-llama-70b performs in-place sorting with Lomuto partitioning. None contain runtime or compilation errors. All five implementations are logically correct variations of quicksort: Rosetta and gemma2-9b-it use the first element as pivot; llama-3.2-90b-vision-preview uses the middle element; TheAlgorithms employs a randomized pivot and in-place pop; deepseek-r1-distill-llama-70b performs in-place sorting with Lomuto partitioning. None contain runtime or compilation errors. All five implementations are logically correct variations of quicksort: Rosetta and gemma2-9b-it use the first element as pivot; llama-3.2-90b-vision-preview uses the middle element; TheAlgorithms employs a randomized pivot and in-place pop; deepseek-r1-distill-llama-70b performs in-place sorting with Lomuto partitioning. None contain runtime or compilation errors. All five implementations are logically correct variations of quicksort: Rosetta and gemma2-9b-it use the first element as pivot; llama-3.2-90b-vision-preview uses the middle element; TheAlgorithms employs a randomized pivot and in-place pop; deepseek-r1-distill-llama-70b performs in-place sorting with Lomuto partitioning. None contain runtime or compilation errors. Llama’s implementation is a correct, efficient functional quicksort. Mixtral returned no code, making it invalid. Llama’s implementation is a correct, efficient functional quicksort. Mixtral returned no code, making it invalid."
+    }
+  },
+  {
+    "_errors": [
+      {
+        "error": "api_error",
+        "message": "Error code: 413 - {'error': {'message': 'Request too large for model `moonshotai/kimi-k2-instruct-0905` in organization `org_01jk4jg9ksfscv89tg6p55skxt` service tier `on_demand` on tokens per minute (TPM): Limit 10000, Requested 10138, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      },
+      {
+        "error": "parse_failed",
+        "raw": "```json\n{\n  \"verdicts\": {\n    \"heapsort||chatGPT\": \"correct\",\n    \"heapsort||codeium\": \"correct\",\n    \"heapsort||copilot\": \"correct\",\n    \"heapsort||deepseek-r1-distill-llama-70b\": \"correct\",\n    \"heapsort||gemini\": \"correct\"\n  },\n  \"summary\": \"All five submissions implement a textbook-standard iterative heapsort that compiles and runs correctly. They differ slightly in naming (heapsort vs heap_sort, main wrappers) but the core heapify + sort logic is identical and correct.\"\n}\n```"
+      }
+    ]
+  }
+]
+
+
+
+
+
+
+
+
+

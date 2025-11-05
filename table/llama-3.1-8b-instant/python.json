@@ -1,0 +1,210 @@
+[
+  {
+    "avl": {
+      "verdicts": {
+        "BlackBox": "correct",
+        "amazonQ": "correct",
+        "chatGPT": "correct",
+        "codeium": "correct",
+        "copilot": "correct",
+        "deepseek-r1-distill-llama-70b": "correct",
+        "gemini": "correct",
+        "gemma2-9b-it": "correct",
+        "llama-3.2-90b-vision-preview": "correct",
+        "llama-3.3-70b-versatile": "incorrect",
+        "mixtral-8x7b-32768": "correct",
+        "theAlgorithms": "correct"
+      },
+      "summary": "Both implementations are correct and logically sound, with the amazonQ model providing additional functionality for deletion and search operations. Both implementations are correct and logically sound, with the amazonQ model providing additional functionality for deletion and search operations. Both implementations are correct and logically sound. They both correctly implement the AVL tree data structure with proper insertion, deletion, and rotation operations. The main difference lies in the naming conventions and the organization of the code. However, both models demonstrate a good understanding of the AVL tree algorithm and its implementation in Python. Both implementations are correct and logically sound. They both correctly implement the AVL tree data structure with proper insertion, deletion, and rotation operations. The main difference lies in the naming conventions and the organization of the code. However, both models demonstrate a good understanding of the AVL tree algorithm and its implementation in Python. Both implementations are correct and logically sound. They both correctly implement the AVL tree data structure with insertion, deletion, and search operations. However, the copilot implementation includes a main function with a traversal and deletion operation, whereas the deepseek-r1-distill-llama-70b implementation does not include these operations. Both implementations have a time complexity of O(log n) for insertion and deletion operations. Both implementations are correct and logically sound. They both correctly implement the AVL tree data structure with insertion, deletion, and search operations. However, the copilot implementation includes a main function with a traversal and deletion operation, whereas the deepseek-r1-distill-llama-70b implementation does not include these operations. Both implementations have a time complexity of O(log n) for insertion and deletion operations. Both implementations are correct and logically sound. They both correctly implement the AVL tree data structure with proper insertion, deletion, and traversal methods. The main difference lies in the naming conventions and the organization of the code, but the logic and functionality are identical. Both implementations are correct and logically sound. They both correctly implement the AVL tree data structure with proper insertion, deletion, and traversal methods. The main difference lies in the naming conventions and the organization of the code, but the logic and functionality are identical. Both implementations correctly implement the AVL tree data structure. However, the implementation by llama-3.3-70b-versatile has several logical errors in its balance factor calculation and rotation methods, leading to incorrect behavior. Both implementations correctly implement the AVL tree data structure. However, the implementation by llama-3.3-70b-versatile has several logical errors in its balance factor calculation and rotation methods, leading to incorrect behavior. The implementation is a well-structured and efficient AVL tree implementation with correct insertion, deletion, and search operations. Both implementations are correct and functional. The AVL tree implementation by theAlgorithms correctly handles insertions and deletions while maintaining the balance of the tree. The beadsort implementation by BlackBox correctly sorts the input array using the bead sort algorithm."
+    }
+  },
+  {
+    "beadsort": {
+      "verdicts": {
+        "BlackBox": "correct",
+        "amazonQ": "incorrect",
+        "chatGPT": "incorrect",
+        "codeium": "incorrect",
+        "copilot": "incorrect",
+        "deepseek-r1-distill-llama-70b": "correct",
+        "gemini": "correct",
+        "gemma2-9b-it": "correct",
+        "llama-3.2-90b-vision-preview": "incorrect",
+        "llama-3.3-70b-versatile": "correct",
+        "mixtral-8x7b-32768": "incorrect",
+        "rosetta": "incorrect",
+        "thealgorithms": "correct"
+      },
+      "summary": "Both implementations are correct and functional. The AVL tree implementation by theAlgorithms correctly handles insertions and deletions while maintaining the balance of the tree. The beadsort implementation by BlackBox correctly sorts the input array using the bead sort algorithm. Both implementations contain significant logical errors. The first implementation incorrectly reconstructs the sorted array, and the second implementation incorrectly initializes the beads list and misinterprets the bead sort algorithm. Both implementations contain significant logical errors. The first implementation incorrectly reconstructs the sorted array, and the second implementation incorrectly initializes the beads list and misinterprets the bead sort algorithm. Both implementations have significant logical errors. The codeium implementation incorrectly updates the beads array, while the copilot implementation incorrectly counts the beads and collects the sorted array. Both implementations have significant logical errors. The codeium implementation incorrectly updates the beads array, while the copilot implementation incorrectly counts the beads and collects the sorted array. Both implementations are correct and logically sound, with the deepseek-r1-distill-llama-70b model using a digit-counting approach and the gemini model using a bead-counting approach. The main difference lies in the implementation details, but both achieve the same result. Both implementations are correct and logically sound, with the deepseek-r1-distill-llama-70b model using a digit-counting approach and the gemini model using a bead-counting approach. The main difference lies in the implementation details, but both achieve the same result. The gemma2-9b-it model implements the Bead Sort algorithm correctly, using a cumulative count approach to efficiently sort the list. In contrast, the llama-3.2-90b-vision-preview model's implementation is incorrect, as it incorrectly assumes that the number of tubes is equal to the number of digits in the maximum number, and fails to account for the actual distribution of beads in the tubes. The gemma2-9b-it model implements the Bead Sort algorithm correctly, using a cumulative count approach to efficiently sort the list. In contrast, the llama-3.2-90b-vision-preview model's implementation is incorrect, as it incorrectly assumes that the number of tubes is equal to the number of digits in the maximum number, and fails to account for the actual distribution of beads in the tubes. Both models implement the Bead Sort algorithm correctly, but the mixtral-8x7b-32768 model fails to handle edge cases where the input list contains duplicate numbers or numbers larger than the maximum value in the list, leading to incorrect results. Both models implement the Bead Sort algorithm correctly, but the mixtral-8x7b-32768 model fails to handle edge cases where the input list contains duplicate numbers or numbers larger than the maximum value in the list, leading to incorrect results. The rosetta model's implementation of beadsort is incorrect because it does not correctly simulate the bead sort process. The thealgorithms model's implementation is correct as it accurately simulates the bead sort process and handles edge cases such as sequences with negative numbers or non-integer values. The rosetta model's implementation of beadsort is incorrect because it does not correctly simulate the bead sort process. The thealgorithms model's implementation is correct as it accurately simulates the bead sort process and handles edge cases such as sequences with negative numbers or non-integer values."
+    }
+  },
+  {
+    "binarysearch": {
+      "verdicts": {
+        "BlackBox": "correct",
+        "amazonQ": "correct",
+        "chatGPT": "correct",
+        "codeium": "correct",
+        "copilot": "correct",
+        "deepseek-r1-distill-llama-70b": "correct",
+        "gemini": "correct",
+        "gemma2-9b-it": "correct",
+        "llama-3.2-90b-vision-preview": "correct",
+        "llama-3.3-70b-versatile": "correct",
+        "mixtral-8x7b-32768": "invalid",
+        "rosetta": "incorrect",
+        "thealgorithms": "correct"
+      },
+      "summary": "Both implementations are correct and logically sound, with the amazonQ model providing additional verification and testing for robustness. Both implementations are correct and logically sound, with the amazonQ model providing additional verification and testing for robustness. Both implementations are logically correct and function as expected. However, codeium's implementation includes additional features such as generating a sorted list of random integers and selecting a random target value, which is not present in chatGPT's implementation. Both implementations are logically correct and function as expected. However, codeium's implementation includes additional features such as generating a sorted list of random integers and selecting a random target value, which is not present in chatGPT's implementation. Both implementations are logically correct and function as expected. They both correctly implement the binary search algorithm and handle edge cases. The main difference is in the generation of the input list, with copilot using a pre-defined list and deepseek-r1-distill-llama-70b generating a random list. Both implementations are logically correct and function as expected. They both correctly implement the binary search algorithm and handle edge cases. The main difference is in the generation of the input list, with copilot using a pre-defined list and deepseek-r1-distill-llama-70b generating a random list. Both implementations are logically correct and function as expected. They both correctly implement the binary search algorithm and handle edge cases. The main difference lies in the test cases and code organization. Both implementations are logically correct and function as expected. They both correctly implement the binary search algorithm and handle edge cases. The main difference lies in the test cases and code organization. Both models provided correct implementations of binary search with proper handling of edge cases and logical correctness. Both models provided correct implementations of binary search with proper handling of edge cases and logical correctness. mixtral-8x7b-32768 submission is invalid due to missing implementation, rosetta submission is incorrect due to incorrect usage of binary search function and incorrect return value when value is not found mixtral-8x7b-32768 submission is invalid due to missing implementation, rosetta submission is incorrect due to incorrect usage of binary search function and incorrect return value when value is not found The binary search implementation by thealgorithms is correct and efficient. On the other hand, the bogosort implementation by BlackBox is incorrect as it does not guarantee a sorted output in a reasonable amount of time due to its reliance on randomness and lack of a termination condition."
+    }
+  },
+  {
+    "bogosort": {
+      "verdicts": {
+        "BlackBox": "incorrect",
+        "amazonQ": "invalid",
+        "chatGPT": "incorrect",
+        "codeium": "correct",
+        "copilot": "correct",
+        "deepseek-r1-distill-llama-70b": "correct",
+        "gemini": "correct",
+        "gemma2-9b-it": "correct",
+        "llama-3.2-90b-vision-preview": "correct",
+        "llama-3.3-70b-versatile": "incorrect",
+        "mixtral-8x7b-32768": "invalid",
+        "rosetta": "incorrect",
+        "thealgorithms": "incorrect"
+      },
+      "summary": "The binary search implementation by thealgorithms is correct and efficient. On the other hand, the bogosort implementation by BlackBox is incorrect as it does not guarantee a sorted output in a reasonable amount of time due to its reliance on randomness and lack of a termination condition. The amazonQ implementation is invalid due to the missing Python code. The chatGPT implementation is incorrect because the bogosort function modifies the input list in-place but does not return the sorted list, and the main function does not print or return the sorted list. The amazonQ implementation is invalid due to the missing Python code. The chatGPT implementation is incorrect because the bogosort function modifies the input list in-place but does not return the sorted list, and the main function does not print or return the sorted list. Both implementations are logically correct and fully functional. They both utilize the bogosort algorithm to sort a list of random integers. The only difference lies in the implementation of the is_sorted function, where codeium uses a generator expression and copilot uses a for loop. Both approaches are valid and produce the same results. Both implementations are logically correct and fully functional. They both utilize the bogosort algorithm to sort a list of random integers. The only difference lies in the implementation of the is_sorted function, where codeium uses a generator expression and copilot uses a for loop. Both approaches are valid and produce the same results. Both implementations are correct and logically sound, with the primary difference being the handling of input data. The deepseek-r1-distill-llama-70b model creates a copy of the input data, while the gemini model sorts the original list. Both approaches are valid, but the deepseek-r1-distill-llama-70b model is more defensive against potential side effects. Both implementations are correct and logically sound, with the primary difference being the handling of input data. The deepseek-r1-distill-llama-70b model creates a copy of the input data, while the gemini model sorts the original list. Both approaches are valid, but the deepseek-r1-distill-llama-70b model is more defensive against potential side effects. Both implementations are correct and logically sound, with the only difference being minor variations in code organization and naming conventions. Both implementations are correct and logically sound, with the only difference being minor variations in code organization and naming conventions. The first implementation has a logical error in the main function, as it does not return the sorted list. The second implementation fails to compile due to the incorrect syntax and missing import statements. The first implementation has a logical error in the main function, as it does not return the sorted list. The second implementation fails to compile due to the incorrect syntax and missing import statements. Both implementations fail to correctly implement bogosort. They both use a helper function to check if the list is sorted, but they do not actually implement the bogosort algorithm, which involves repeatedly shuffling the list until it is sorted. Both implementations fail to correctly implement bogosort. They both use a helper function to check if the list is sorted, but they do not actually implement the bogosort algorithm, which involves repeatedly shuffling the list until it is sorted."
+    }
+  },
+  {
+    "bubblesort": {
+      "verdicts": {
+        "BlackBox": "correct",
+        "amazonQ": "correct",
+        "chatGPT": "correct",
+        "codeium": "correct",
+        "copilot": "correct",
+        "deepseek-r1-distill-llama-70b": "correct",
+        "gemini": "correct",
+        "gemma2-9b-it": "correct",
+        "llama-3.2-90b-vision-preview": "correct",
+        "llama-3.3-70b-versatile": "correct",
+        "mixtral-8x7b-32768": "invalid",
+        "rosetta": "correct",
+        "theAlgorithms": "correct"
+      },
+      "summary": "Both implementations are correct and logically sound, with the main difference being the number of iterations and array size used for testing. The BlackBox model's implementation is more concise and directly sorts the provided array, while the amazonQ model's implementation includes a loop for testing and sorting multiple arrays. Both implementations are correct and logically sound, with the main difference being the number of iterations and array size used for testing. The BlackBox model's implementation is more concise and directly sorts the provided array, while the amazonQ model's implementation includes a loop for testing and sorting multiple arrays. Both implementations are logically correct and functionally correct. They both implement the Bubblesort algorithm correctly and handle edge cases properly. The only difference is in the docstring and comments, but the code itself is identical. Both implementations are logically correct and functionally correct. They both implement the Bubblesort algorithm correctly and handle edge cases properly. The only difference is in the docstring and comments, but the code itself is identical. Both implementations are correct and logically sound, with the only difference being the optimization in the second implementation where it breaks the loop if no swaps were made in a pass, improving efficiency. Both implementations are correct and logically sound, with the only difference being the optimization in the second implementation where it breaks the loop if no swaps were made in a pass, improving efficiency. Both implementations are logically correct and function as expected. They both implement the Bubble Sort algorithm with optimization to reduce the number of passes through the array when the list is already sorted. Both implementations are logically correct and function as expected. They both implement the Bubble Sort algorithm with optimization to reduce the number of passes through the array when the list is already sorted. Both models provided correct implementations of the bubble sort algorithm, with the only difference being minor formatting and documentation variations. Both models provided correct implementations of the bubble sort algorithm, with the only difference being minor formatting and documentation variations. The mixtral-8x7b-32768 model submission is invalid due to incomplete code. The rosetta model submission is correct, with a clear and well-structured implementation of the bubble sort algorithm. The mixtral-8x7b-32768 model submission is invalid due to incomplete code. The rosetta model submission is correct, with a clear and well-structured implementation of the bubble sort algorithm. Both implementations are correct and logically sound, with the rosetta model providing a more concise implementation and the theAlgorithms model providing additional documentation and examples. Both implementations are correct and logically sound, with the rosetta model providing a more concise implementation and the theAlgorithms model providing additional documentation and examples."
+    }
+  },
+  {
+    "dijkstra": {
+      "verdicts": {
+        "BlackBox": "correct",
+        "amazonQ": "incorrect",
+        "chatGPT": "correct",
+        "codeium": "correct",
+        "copilot": "correct",
+        "deepseek-r1-distill-llama-70b": "correct",
+        "gemini": "correct",
+        "gemma2-9b-it": "correct",
+        "llama-3.2-90b-vision-preview": "correct",
+        "llama-3.3-70b-versatile": "incorrect",
+        "mixtral-8x7b-32768": "incorrect",
+        "rosetta": "correct",
+        "theAlgorithms": "correct"
+      },
+      "summary": "The BlackBox model correctly implements Dijkstra's algorithm with a priority queue, while the amazonQ model incorrectly uses a priority queue with tuples instead of a heap, and also incorrectly assumes that the graph is a dictionary of adjacency lists with items as values instead of tuples. The BlackBox model correctly implements Dijkstra's algorithm with a priority queue, while the amazonQ model incorrectly uses a priority queue with tuples instead of a heap, and also incorrectly assumes that the graph is a dictionary of adjacency lists with items as values instead of tuples. Both implementations are correct and logically sound. They both use a priority queue to efficiently explore the graph and find the shortest paths. The main difference lies in the organization and naming of the variables, but both models correctly implement Dijkstra's algorithm. Both implementations are correct and logically sound. They both use a priority queue to efficiently explore the graph and find the shortest paths. The main difference lies in the organization and naming of the variables, but both models correctly implement Dijkstra's algorithm. Both implementations are correct and logically sound. They both correctly implement Dijkstra's algorithm and handle edge cases properly. The main difference lies in the graph generation and usage. The copilot implementation generates a random graph and uses it for demonstration purposes, whereas the deepseek-r1-distill-llama-70b implementation uses a pre-generated graph and provides a more structured approach. Both implementations are correct and logically sound. They both correctly implement Dijkstra's algorithm and handle edge cases properly. The main difference lies in the graph generation and usage. The copilot implementation generates a random graph and uses it for demonstration purposes, whereas the deepseek-r1-distill-llama-70b implementation uses a pre-generated graph and provides a more structured approach. Both implementations correctly implement Dijkstra's algorithm with minor differences in graph generation and node representation. Gemini's implementation generates a random graph with varying node degrees, while Gemma2-9b-it generates a complete graph with random edge weights. Both models produce accurate shortest distances. Both implementations correctly implement Dijkstra's algorithm with minor differences in graph generation and node representation. Gemini's implementation generates a random graph with varying node degrees, while Gemma2-9b-it generates a complete graph with random edge weights. Both models produce accurate shortest distances. Both models implement Dijkstra's algorithm correctly, but the second model fails to reconstruct the shortest path due to incorrect usage of the previous_nodes dictionary. Both models implement Dijkstra's algorithm correctly, but the second model fails to reconstruct the shortest path due to incorrect usage of the previous_nodes dictionary. The mixtral-8x7b-32768 model incorrectly implements Dijkstra's algorithm by not properly updating the distances and previous nodes in the graph. The rosetta model correctly implements Dijkstra's algorithm with a proper use of distances, previous nodes, and a priority queue. The mixtral-8x7b-32768 model incorrectly implements Dijkstra's algorithm by not properly updating the distances and previous nodes in the graph. The rosetta model correctly implements Dijkstra's algorithm with a proper use of distances, previous nodes, and a priority queue. Both implementations are correct and function as expected. The Dijkstra's algorithm implementation correctly finds the shortest path between two nodes in a graph, and the Heapsort implementation correctly sorts an array of integers in ascending order."
+    }
+  },
+  {
+    "heapsort": {
+      "verdicts": {
+        "BlackBox": "correct",
+        "amazonQ": "correct",
+        "chatGPT": "correct",
+        "codeium": "correct",
+        "copilot": "correct",
+        "deepseek-r1-distill-llama-70b": "correct",
+        "gemini": "correct",
+        "gemma2-9b-it": "incorrect",
+        "llama-3.2-90b-vision-preview": "correct",
+        "llama-3.3-70b-versatile": "correct",
+        "mixtral-8x7b-32768": "correct",
+        "rosetta": "correct",
+        "theAlgorithms": "correct"
+      },
+      "summary": "Both implementations are correct and function as expected. The Dijkstra's algorithm implementation correctly finds the shortest path between two nodes in a graph, and the Heapsort implementation correctly sorts an array of integers in ascending order. Both implementations are correct and logically sound. They both correctly implement the heapify function and the heap sort algorithm. The main difference lies in the naming conventions and minor syntax differences, but the overall logic and functionality are identical. Both implementations are correct and logically sound. They both correctly implement the heapify function and the heap sort algorithm. The main difference lies in the naming conventions and minor syntax differences, but the overall logic and functionality are identical. Both implementations are correct and logically sound. They both correctly implement the heapsort algorithm, with the main difference being in the documentation and formatting. The codeium implementation includes docstrings for the functions, which improves readability and maintainability. Both implementations are correct and logically sound. They both correctly implement the heapsort algorithm, with the main difference being in the documentation and formatting. The codeium implementation includes docstrings for the functions, which improves readability and maintainability. Both implementations are correct and logically sound. They both correctly implement the Heapsort algorithm, with the only difference being in the naming conventions and the generation of the input array. Both implementations are correct and logically sound. They both correctly implement the Heapsort algorithm, with the only difference being in the naming conventions and the generation of the input array. Both implementations are correct in terms of heapify logic, but the gemma2-9b-it model has a logical error in the heap_sort function where it incorrectly uses the variable 'l' instead of 'left' and 'r' instead of 'right'. Additionally, the gemma2-9b-it model has a different swap operation in the heap_sort function which is incorrect. Both implementations are correct in terms of heapify logic, but the gemma2-9b-it model has a logical error in the heap_sort function where it incorrectly uses the variable 'l' instead of 'left' and 'r' instead of 'right'. Additionally, the gemma2-9b-it model has a different swap operation in the heap_sort function which is incorrect. Both models provided correct implementations of the heapsort algorithm. The primary difference lies in the naming conventions and comments used in the code. However, both models correctly utilize the heapify function to build a max heap and extract elements one by one, resulting in a fully functional and logically correct heapsort implementation. Both models provided correct implementations of the heapsort algorithm. The primary difference lies in the naming conventions and comments used in the code. However, both models correctly utilize the heapify function to build a max heap and extract elements one by one, resulting in a fully functional and logically correct heapsort implementation. Both implementations are correct and logically sound, with the rosetta model providing a clear and concise explanation of the heapsort algorithm. The mixtral-8x7b-32768 model's implementation is also correct, but lacks additional context and documentation. Both implementations are correct and logically sound, with the rosetta model providing a clear and concise explanation of the heapsort algorithm. The mixtral-8x7b-32768 model's implementation is also correct, but lacks additional context and documentation. Both implementations are correct and logically sound. They both utilize the heapify function to build a max heap and then repeatedly swap the root with the last element and heapify the reduced heap until it is sorted. Both implementations are correct and logically sound. They both utilize the heapify function to build a max heap and then repeatedly swap the root with the last element and heapify the reduced heap until it is sorted."
+    }
+  },
+  {
+    "mergesort": {
+      "verdicts": {
+        "AmazonQ": "correct",
+        "BlackBox": "correct",
+        "ChatGPT": "correct",
+        "Codeium": "correct",
+        "Copilot": "correct",
+        "Rosetta": "correct",
+        "TheAlgorithms": "correct",
+        "deepseek-r1-distill-llama-70b": "correct",
+        "gemini": "correct",
+        "gemma2-9b-it": "correct",
+        "llama-3.2-90b-vision-preview": "correct",
+        "llama-3.3-70b-versatile": "correct",
+        "mixtral-8x7b-32768": "invalid"
+      },
+      "summary": "Both implementations are correct and logically sound, with the only difference being minor variations in code style and naming conventions. Both implementations are correct and logically sound, with the only difference being minor variations in code style and naming conventions. Both ChatGPT and Codeium's implementations of mergesort are correct and function as expected. They both correctly handle the base case, recursively split the array, and merge the sorted halves. The only difference is in the merge function, where ChatGPT uses a while loop and Codeium uses a conditional statement with a while loop. Both approaches are logically equivalent and produce the same results. Both ChatGPT and Codeium's implementations of mergesort are correct and function as expected. They both correctly handle the base case, recursively split the array, and merge the sorted halves. The only difference is in the merge function, where ChatGPT uses a while loop and Codeium uses a conditional statement with a while loop. Both approaches are logically equivalent and produce the same results. Both implementations are correct and logically sound. However, Rosetta's implementation is more concise and utilizes the built-in merge function from the heapq module, while Copilot's implementation is more verbose but still effective. Both implementations are correct and logically sound. However, Rosetta's implementation is more concise and utilizes the built-in merge function from the heapq module, while Copilot's implementation is more verbose but still effective. Both implementations are correct and logically sound, with the only difference being minor formatting and documentation differences. Both implementations are correct and logically sound, with the only difference being minor formatting and documentation differences. Both models provide correct implementations of the Merge Sort algorithm. The main difference lies in the naming conventions and code organization. The deepseek-r1-distill-llama-70b model uses more descriptive function names, while the gemini model uses a more concise approach. Both models demonstrate a good understanding of the algorithm and its implementation. Both models provide correct implementations of the Merge Sort algorithm. The main difference lies in the naming conventions and code organization. The deepseek-r1-distill-llama-70b model uses more descriptive function names, while the gemini model uses a more concise approach. Both models demonstrate a good understanding of the algorithm and its implementation. Both implementations are correct and logically sound, with the only difference being minor variations in variable naming conventions and comments. Both implementations are correct and logically sound, with the only difference being minor variations in variable naming conventions and comments. Both models implement the merge sort algorithm correctly. However, the mixtral-8x7b-32768 model fails to compile due to a missing implementation of the merge function. Both models implement the merge sort algorithm correctly. However, the mixtral-8x7b-32768 model fails to compile due to a missing implementation of the merge function."
+    }
+  },
+  {
+    "queue": {
+      "verdicts": {
+        "AmazonQ": "invalid",
+        "BlackBox": "correct",
+        "ChatGPT": "correct",
+        "Codeium": "correct",
+        "Copilot": "correct",
+        "Gemini": "incorrect",
+        "Rosetta": "incorrect",
+        "TheAlgorithms": "correct",
+        "deepseek-r1-distill-llama-70b": "correct",
+        "gemma2-9b-it": "correct",
+        "llama-3.2-90b-vision-preview": "correct",
+        "llama-3.3-70b-versatile": "correct",
+        "mixtral-8x7b-32768": "invalid"
+      },
+      "summary": "AmazonQ submission fails to compile due to missing Python syntax, while BlackBox submission provides a correct implementation of a queue data structure. AmazonQ submission fails to compile due to missing Python syntax, while BlackBox submission provides a correct implementation of a queue data structure. Both ChatGPT and Codeium implementations are correct and logically sound. They both utilize a list as the underlying data structure for the queue, which is a common approach. However, Codeium's implementation raises an exception when attempting to dequeue from an empty queue, which is a more robust approach than ChatGPT's silent return of None. Both ChatGPT and Codeium implementations are correct and logically sound. They both utilize a list as the underlying data structure for the queue, which is a common approach. However, Codeium's implementation raises an exception when attempting to dequeue from an empty queue, which is a more robust approach than ChatGPT's silent return of None. Both implementations are mostly correct, but Gemini's implementation has a logical error in the dequeue and peek methods. In the dequeue method, it should raise an exception when the queue is empty, not return None. Similarly, in the peek method, it should raise an exception when the queue is empty, not return None. Both implementations are mostly correct, but Gemini's implementation has a logical error in the dequeue and peek methods. In the dequeue method, it should raise an exception when the queue is empty, not return None. Similarly, in the peek method, it should raise an exception when the queue is empty, not return None. TheAlgorithms' implementation is correct and follows standard queue operations. Rosetta's implementation has a significant logical error in its __call__ method, which is supposed to return the front item of the queue but instead calls the pop method, removing the front item. TheAlgorithms' implementation is correct and follows standard queue operations. Rosetta's implementation has a significant logical error in its __call__ method, which is supposed to return the front item of the queue but instead calls the pop method, removing the front item. Both models implement a queue data structure correctly, with the main difference being the naming conventions used for the queue's internal list. deepseek-r1-distill-llama-70b uses 'self.queue', while gemma2-9b-it uses 'self.items'. Both models handle enqueue, dequeue, peek, is_empty, size, and str operations correctly, and their main functions execute without errors. Both models implement a queue data structure correctly, with the main difference being the naming conventions used for the queue's internal list. deepseek-r1-distill-llama-70b uses 'self.queue', while gemma2-9b-it uses 'self.items'. Both models handle enqueue, dequeue, peek, is_empty, size, and str operations correctly, and their main functions execute without errors. Both implementations are correct and logically sound. They both implement a queue data structure with the standard methods (enqueue, dequeue, peek, is_empty, size, and str). The main difference lies in the underlying data structure used: a list in the first implementation and a linked list in the second. Both approaches are valid and efficient. Both implementations are correct and logically sound. They both implement a queue data structure with the standard methods (enqueue, dequeue, peek, is_empty, size, and str). The main difference lies in the underlying data structure used: a list in the first implementation and a linked list in the second. Both approaches are valid and efficient. The queue implementation is invalid due to missing code, while the quicksort implementation is correct with a minor flaw in the in-place version, which is not used in the main function."
+    }
+  },
+  {
+    "quicksort": {
+      "verdicts": {
+        "AmazonQ": "correct",
+        "BlackBox": "correct",
+        "ChatGPT": "correct",
+        "Codeium": "correct",
+        "Copilot": "correct",
+        "Gemini": "correct",
+        "Rosetta": "correct",
+        "TheAlgorithms": "correct",
+        "deepseek-r1-distill-llama-70b": "correct",
+        "gemma2-9b-it": "incorrect",
+        "llama-3.2-90b-vision-preview": "correct",
+        "llama-3.3-70b-versatile": "incorrect",
+        "mixtral-8x7b-32768": "invalid"
+      },
+      "summary": "The queue implementation is invalid due to missing code, while the quicksort implementation is correct with a minor flaw in the in-place version, which is not used in the main function. Both implementations are correct and logically sound, with the only difference being the choice of pivot element. BlackBox selects the middle element, while ChatGPT chooses the last element. Both approaches are valid and result in a correct quicksort implementation. Both implementations are correct and logically sound, with the only difference being the choice of pivot element. BlackBox selects the middle element, while ChatGPT chooses the last element. Both approaches are valid and result in a correct quicksort implementation. Both Codeium and Copilot provided correct implementations of the quicksort algorithm. Their code is logically sound and functionally correct, with no significant errors or flaws. Both Codeium and Copilot provided correct implementations of the quicksort algorithm. Their code is logically sound and functionally correct, with no significant errors or flaws. Both implementations are correct and logically sound. They both utilize the Quicksort algorithm with a similar approach, choosing a pivot element and partitioning the array into subarrays. The main difference lies in the partitioning logic, with Gemini's implementation using a more concise approach, while Rosetta's implementation explicitly handles the equal elements. Both implementations demonstrate a good understanding of the Quicksort algorithm and its application in Python. Both implementations are correct and logically sound. They both utilize the Quicksort algorithm with a similar approach, choosing a pivot element and partitioning the array into subarrays. The main difference lies in the partitioning logic, with Gemini's implementation using a more concise approach, while Rosetta's implementation explicitly handles the equal elements. Both implementations demonstrate a good understanding of the Quicksort algorithm and its application in Python. Both implementations are correct and logically sound. They both utilize the quicksort algorithm to sort collections of comparable items. The main difference lies in the approach to selecting the pivot element and partitioning the array. TheAlgorithms' implementation uses a random pivot, while deepseek-r1-distill-llama-70b's implementation uses the middle element as the pivot. Both approaches are valid and efficient. Both implementations are correct and logically sound. They both utilize the quicksort algorithm to sort collections of comparable items. The main difference lies in the approach to selecting the pivot element and partitioning the array. TheAlgorithms' implementation uses a random pivot, while deepseek-r1-distill-llama-70b's implementation uses the middle element as the pivot. Both approaches are valid and efficient. Both implementations are correct in terms of the Quick Sort algorithm's logic. However, the gemma2-9b-it model incorrectly handles the base case, where it returns the original array instead of an empty list when the input array has less than two elements. The llama-3.2-90b-vision-preview model correctly handles the base case and is therefore considered correct. Both implementations are correct in terms of the Quick Sort algorithm's logic. However, the gemma2-9b-it model incorrectly handles the base case, where it returns the original array instead of an empty list when the input array has less than two elements. The llama-3.2-90b-vision-preview model correctly handles the base case and is therefore considered correct. The llama-3.3-70b-versatile implementation has a logical error in its recursive calls, causing it to fail to sort the array correctly. The mixtral-8x7b-32768 implementation fails to compile due to an invalid Python syntax. The llama-3.3-70b-versatile implementation has a logical error in its recursive calls, causing it to fail to sort the array correctly. The mixtral-8x7b-32768 implementation fails to compile due to an invalid Python syntax."
+    }
+  },
+  {
+    "_errors": [
+      {
+        "error": "api_error",
+        "message": "Error code: 413 - {'error': {'message': 'Request too large for model `llama-3.1-8b-instant` in organization `org_01jk4jg9ksfscv89tg6p55skxt` service tier `on_demand` on tokens per minute (TPM): Limit 6000, Requested 10062, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      }
+    ]
+  }
+]
+
